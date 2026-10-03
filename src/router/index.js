@@ -10,7 +10,7 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Portfolio | Paul Jaguin - Développeur Web',
+        title: 'Portfolio | Nguyen Trong Khoi',
         metaTags: [
           {
             rel: 'canonical',
@@ -18,7 +18,7 @@ const router = createRouter({
           },
           {
             name: 'title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'description',
@@ -27,11 +27,11 @@ const router = createRouter({
           },
           {
             name: 'keywords',
-            content: 'portfolio, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'portfolio, trong khoi, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Trong Khoi'
           },
           {
             name: 'robots',
@@ -51,11 +51,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'application-name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'twitter:card',
@@ -63,7 +63,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'twitter:description',
@@ -123,7 +123,7 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Bureau | Paul Jaguin - Développeur Web',
+        title: 'Portfolio | Nguyen Trong Khoi',
         metaTags: [
           {
             rel: 'canonical',
@@ -131,7 +131,7 @@ const router = createRouter({
           },
           {
             name: 'title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'description',
@@ -164,11 +164,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'application-name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'twitter:card',
@@ -176,7 +176,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'twitter:description',
@@ -197,7 +197,7 @@ const router = createRouter({
           },
           {
             name: 'og:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'og:description',
@@ -206,7 +206,7 @@ const router = createRouter({
           },
           {
             name: 'og:site_name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             name: 'og:url',

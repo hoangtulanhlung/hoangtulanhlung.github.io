@@ -98,11 +98,11 @@
           {
             "id": 1,
             "subtitle": {
-              "en": "My Github",
-              "fr": "Mon Github"
+              "en": "My Instagram",
+              "fr": "My Instagram"
             },
-            "iconUrl": "/img/icons/side-menu/github-icon.webp",
-            "url": "https://github.com/UnMugViolet"
+            "iconUrl": "/img/icons/side-menu/my-instagram-icon.jpg",
+            "url": "https://www.instagram.com/hoangtulanhlung2004/"
           },
           {
             "id": 2,
@@ -111,16 +111,16 @@
               "fr": "Mon LinkedIn"
             },
             "iconUrl": "/img/icons/side-menu/linkedin-icon.webp",
-            "url": "https://www.linkedin.com/in/pauljaguin/"
+            "url": "https://www.linkedin.com/in/trong-khoi-nguyen-7b2898258/"
           },
           {
             "id": 3,
             "subtitle": {
-              "en": "Buy me a coffee",
-              "fr": "Buy me a coffee"
+              "en": "My favourite song",
+              "fr": "My favourite song"
             },
-            "iconUrl": "/img/icons/side-menu/buy-me-a-coffee-icon.webp",
-            "url": "https://buymeacoffee.com/unmugviolet"
+            "iconUrl": "/img/icons/side-menu/music.png",
+            "url": "https://www.youtube.com/watch?v=e1IH2q8QNLM"
           }
         ]
       }

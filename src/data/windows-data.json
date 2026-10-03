@@ -206,7 +206,7 @@
   {
     "id": "notepad",
     "title": {
-      "en": "Notepad",
+      "en": "About me",
       "fr": "Bloc-notes"
     },
     "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
@@ -218,10 +218,10 @@
     "headerToolsId": "",
     "menuHeaderItemsId": "notepad",
     "iconSrc": "/img/icons/notepad/notepad-icon-sm.webp",
-    "initPositionX": 110,
-    "initPositionY": 480,
-    "initWidth": 230,
-    "initHeight": 270,
+    "initPositionX": 300,
+    "initPositionY": 150,
+    "initWidth": 650,
+    "initHeight": 550,
     "minWidth": 200,
     "minHeight": 160,
     "component": "Notepad",
@@ -294,11 +294,11 @@
       "fr": "Découvrez mes services"
     },
     "imgSrc": "/img/icons/services-icon-lg.webp",
-    "onDesktop": true,
+    "onDesktop": false,
     "resizable": true,
     "windowsHeaderLogo": false,
     "isSearchVisible": true,
-    "headerPosition": "left",
+    "headerPosition": "",
     "headerToolsId": "default",
     "menuHeaderItemsId": "default",
     "iconSrc": "/img/icons/services-icon-lg.webp",

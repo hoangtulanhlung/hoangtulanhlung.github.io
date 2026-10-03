@@ -1,637 +1,522 @@
 {
-  "name": "Portfolio - Playlist",
+  "name": "hi hello how are you",
   "images": [
     {
-      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr-nhvnaturalpetproducts.glopalstore.com%2Fcats%2Fremedies-by-breed%2Fscottish-straight%2F&psig=AOvVaw2XpKYU2_h6MAZN9lQNADH5&ust=1739875630694000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIC2lPrDyosDFQAAAAAdAAAAABAK"
+      "url": "/img/playlist/hihi-hello.jpg"
     }
   ],
   "external_urls": {
-    "spotify": "https://open.spotify.com/playlist/1hMzZICeyywzM40RKVahoU"
+    "spotify": "https://open.spotify.com/playlist/2UJRI8LFqQJXizZxrDf8Oy"
   },
   "tracks": {
     "items": [
       {
-        "id": "1lHiKWnlJtjzA4vHnjAr39",
-        "name": "Windy - Remastered Version",
+        "id": "khoi-track-01",
+        "name": "炉心融解",
         "album": {
-          "name": "Insight Out",
+          "name": "炉心融解",
           "images": [
             {
-              "url": "/img/album-covers/1lHiKWnlJtjzA4vHnjAr39.webp"
+              "url": "/img/album-covers/khoi/01.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/1lHiKWnlJtjzA4vHnjAr39",
-            "deezer": "https://www.deezer.com/us/track/733073"
+            "spotify": "https://open.spotify.com/intl-vi/track/705CVl7WvtnJgVpGIgZ6dQ?si=4c5d4e5d185346ec"
           }
         },
         "artists": [
           {
-            "name": "The Association"
+            "name": "iroha(sasaki)"
           }
         ],
-        "added_at": "2025-05-28T07:40:39Z",
-        "duration_ms": 176600
-      },    
-      {
-        "id": "5BH4zfMUbea376GQp5okHw",
-        "name": "Enough",
-        "album": {
-          "name": "Radiolove",
-          "images": [
-            {
-              "url": "/img/album-covers/5BH4zfMUbea376GQp5okHw.webp"
-            }
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/track/5BH4zfMUbea376GQp5okHw",
-            "deezer": "https://www.deezer.com/us/track/1655565142"
-          }
-        },
-        "artists": [
-          {
-            "name": "Tanukichan"
-          }
-        ],
-        "added_at": "2024-12-20T13:24:00",
-        "duration_ms": 176196
+        "added_at": "2026-10-03T00:00:00Z",
+        "duration_ms": 329000
       },
       {
-        "id": "6EpQ1y9VipffuPRhI3GTQc",
-        "name": "Le sablier",
+        "id": "khoi-track-02",
+        "name": "Pop Off Pop Off",
         "album": {
-          "name": "\"X\"",
+          "name": "WhyKiiiKiii",
           "images": [
             {
-              "url": "/img/album-covers/6EpQ1y9VipffuPRhI3GTQc.webp"
+              "url": "/img/album-covers/khoi/02.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/6EpQ1y9VipffuPRhI3GTQc",
-            "deezer": "https://www.deezer.com/us/track/1772850617"
+            "spotify": "https://open.spotify.com/intl-vi/track/3iHzvU39BS03PD0zpNa19b?si=7db97d69a7214e47"
           }
         },
         "artists": [
           {
-            "name": "Fred Pallem, le Sacre du Tympan"
+            "name": "KiiiKiii"
           }
         ],
-        "added_at": "2024-10-31T11:38:16Z",
-        "duration_ms": 341368
+        "added_at": "2026-10-03T00:00:00Z",
+        "duration_ms": 141000
       },
       {
-        "id": "7bu3H8JO7d0UbMoVzbo70s",
-        "name": "A Forest",
+        "id": "khoi-track-03",
+        "name": "All Is Full Of Love",
         "album": {
-          "name": "Seventeen Seconds",
+          "name": "Family Tree",
           "images": [
             {
-              "url": "/img/album-covers/7bu3H8JO7d0UbMoVzbo70s.webp"
+              "url": "/img/album-covers/khoi/03.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/4iVTSRiJAA18d3QglhyJ6Q",
-            "deezer": "https://www.deezer.com/us/track/1166205"
+            "spotify": "https://open.spotify.com/intl-vi/track/5nVoXq0Q239GpJIRG8n4rZ?si=60ae76ea2f3a457b"
           }
         },
         "artists": [
           {
-            "name": "The Cure"
+            "name": "Björk"
           }
         ],
-        "added_at": "2024-10-31T11:38:16Z",
-        "duration_ms": 354346
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 286000
       },
       {
-        "id": "3uaKz4HTXFCGzIHmqRMLcO",
-        "name": "La nuit américaine",
+        "id": "khoi-track-04",
+        "name": "미행 (그림자 : Shadow)",
         "album": {
-          "name": "American Classics",
+          "name": "Pink Tape - The 2nd Album",
           "images": [
             {
-              "url": "/img/album-covers/3uaKz4HTXFCGzIHmqRMLcO.webp"
+              "url": "/img/album-covers/khoi/04.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/3uaKz4HTXFCGzIHmqRMLcO",
-            "deezer": "https://www.deezer.com/us/track/2165509787"
+            "spotify": "https://open.spotify.com/intl-vi/track/1xbJNPLSTtIWgGTt3Uu4gl?si=6244a08811c246b7"
           }
         },
         "artists": [
           {
-            "name": "Georges Delerue, Eric Aubier, Sébastien Billard"
+            "name": "f(x)"
           }
         ],
-        "added_at": "2024-08-13T08:34:37Z",
-        "duration_ms": 138507
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 210000
       },
       {
-        "id": "1gl0S9pS0Zw0qfa14rDD3D",
-        "name": "Freaks",
+        "id": "khoi-track-05",
+        "name": "Ngày Em Bước Đến",
         "album": {
-          "name": "Surf Curse",
+          "name": "0903",
           "images": [
             {
-              "url": "/img/album-covers/1gl0S9pS0Zw0qfa14rDD3D.webp"
+              "url": "/img/album-covers/khoi/05.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/7EkWXAI1wn8Ii883ecd9xr",
-            "deezer": "https://www.deezer.com/us/track/1373268472"
+            "spotify": "https://open.spotify.com/intl-vi/track/2DejeQbHRPHcPqvWh0zNW5?si=a6cc6aef2b1f4fc7"
           }
         },
         "artists": [
           {
-            "name": "Freaks"
+            "name": "XIN"
           }
         ],
-        "added_at": "2024-08-12T17:04:18Z",
-        "duration_ms": 147098
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 235000
       },
       {
-        "id": "1QFh8OH1e78dGd3VyJZCAC",
-        "name": "Boys Don't Cry",
+        "id": "khoi-track-06",
+        "name": "3.14159",
         "album": {
-          "name": "Three Imaginary Boys",
+          "name": "The Happy Star",
           "images": [
             {
-              "url": "/img/album-covers/1QFh8OH1e78dGd3VyJZCAC.webp"
+              "url": "/img/album-covers/khoi/06.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/1QFh8OH1e78dGd3VyJZCAC",
-            "deezer": "https://www.deezer.com/us/track/1143625"
+            "spotify": "https://open.spotify.com/intl-vi/track/6SyDm0wCPpoMYDcx6Dwca3?si=d651382d30e54c5b"
           }
         },
         "artists": [
           {
-            "name": "The Cure"
+            "name": "Lexie Liu"
           }
         ],
-        "added_at": "2024-08-15T17:19:54Z",
-        "duration_ms": 154887
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 213000
       },
       {
-        "id": "7oG9qhZ0UaQEoUGJJVXh1U",
-        "name": "Favourite",
+        "id": "khoi-track-07",
+        "name": "Virtual Angel",
         "album": {
-          "name": "Favourite",
+          "name": "<Dall>",
           "images": [
             {
-              "url": "/img/album-covers/7oG9qhZ0UaQEoUGJJVXh1U.webp"
+              "url": "/img/album-covers/khoi/07.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/7oG9qhZ0UaQEoUGJJVXh1U",
-            "deezer": "https://www.deezer.com/us/track/2928358941"
+            "spotify": "https://open.spotify.com/intl-vi/track/1iGNZerzZHm2GLu7k1OS3J?si=40dab4bad6be4771"
           }
         },
         "artists": [
           {
-            "name": "Fontaines D.C."
+            "name": "ARTMS"
           }
         ],
-        "added_at": "2024-08-12T17:46:20Z",
-        "duration_ms": 268016
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 173000
       },
       {
-        "id": "3dBVyJ7JuOMt4GE9607Qin",
-        "name": "Cosmic Dancer",
+        "id": "khoi-track-08",
+        "name": "mpg",
         "album": {
-          "name": "Electric Warrior",
+          "name": "yesteryear",
           "images": [
             {
-              "url": "/img/album-covers/3dBVyJ7JuOMt4GE9607Qin.webp"
+              "url": "/img/album-covers/khoi/08.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/artist/3dBVyJ7JuOMt4GE9607Qin",
-            "deezer": "https://www.deezer.com/us/track/25003771"
+            "spotify": "https://open.spotify.com/intl-vi/track/2CFv4cxDI3spt71lQT3uf1?si=3515e412689143a6"
           }
         },
         "artists": [
           {
-            "name": "T. Rex"
+            "name": "Phùng Khánh Linh"
           }
         ],
-        "added_at": "2024-08-13T08:36:46Z",
-        "duration_ms": 266579
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 167000
       },
       {
-        "id": "0IwlY33zbBXN7zlS9DP2Cj",
-        "name": "Sunday Morning",
+        "id": "khoi-track-09",
+        "name": "iffy iffy",
         "album": {
-          "name": "The Velvet Underground & Nico 45th Anniversary",
+          "name": "'PUREFLOW'; Pt. 1",
           "images": [
             {
-              "url": "/img/album-covers/0IwlY33zbBXN7zlS9DP2Cj.webp"
+              "url": "/img/album-covers/khoi/09.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/11607FzqoipskTsXrwEHnJ",
-            "deezer": "https://www.deezer.com/us/track/61292499"
+            "spotify": "https://open.spotify.com/intl-vi/track/27UQUnxpR2e8zrrMUVcbc9?si=d53b89ae04a04664"
           }
         },
         "artists": [
           {
-            "name": "The Velvet Underground, Nico"
+            "name": "LE SSERAFIM"
           }
         ],
-        "added_at": "2024-08-13T08:37:24Z",
-        "duration_ms": 176100
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 129000
       },
       {
-        "id": "1Clu0gbMFEvJ3bdpgmlMvh",
-        "name": "Mr. Fox in the Fields",
+        "id": "khoi-track-10",
+        "name": "Suddenly",
         "album": {
-          "name": "Fantastic Mr. Fox (Original Soundtrack)",
+          "name": "I.O.I 3rd MINI ALBUM",
           "images": [
             {
-              "url": "/img/album-covers/1Clu0gbMFEvJ3bdpgmlMvh.webp"
+              "url": "/img/album-covers/khoi/10.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/1Clu0gbMFEvJ3bdpgmlMvh",
-            "deezer": "https://www.deezer.com/us/track/10102011"
+            "spotify": "https://open.spotify.com/intl-vi/track/7u0yW2XPSJozIGdUSRET19?si=44ca4f1709da449b"
           }
         },
         "artists": [
           {
-            "name": "Alexandre Desplat"
+            "name": "I.O.I"
           }
         ],
-        "added_at": "2024-08-13T08:35:08Z",
-        "duration_ms": 62589
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 195000
       },
       {
-        "id": "7lTTDZv3adwmeoWRobZmbU",
-        "name": "Clicktivism",
+        "id": "khoi-track-11",
+        "name": "Loanh Quanh",
         "album": {
-          "name": "Flickering i",
+          "name": "Loanh Quanh",
           "images": [
             {
-              "url": "/img/album-covers/7lTTDZv3adwmeoWRobZmbU.webp"
+              "url": "/img/album-covers/khoi/11.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/7lTTDZv3adwmeoWRobZmbU",
-            "deezer": "https://www.deezer.com/us/track/1674218887"
+            "spotify": "https://open.spotify.com/intl-vi/track/17yZuELUrVRZaGkeWrVi76?si=1087d3c68b61466f"
           }
         },
         "artists": [
           {
-            "name": "Astrel K"
+            "name": "Mademoiselle"
           }
         ],
-        "added_at": "2024-08-13T09:20:28Z",
-        "duration_ms": 298605
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 196000
       },
       {
-        "id": "1JIzFhI9Lt5FyslawmHCBi",
-        "name": "Five Years - 2012 Remaster",
+        "id": "khoi-track-12",
+        "name": "Genie",
         "album": {
-          "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+          "name": "Genie - The Second Mini Album",
           "images": [
             {
-              "url": "/img/album-covers/1JIzFhI9Lt5FyslawmHCBi.webp"
+              "url": "/img/album-covers/khoi/12.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/1JIzFhI9Lt5FyslawmHCBi",
-            "deezer": "https://www.deezer.com/us/track/107471920"
+            "spotify": "https://open.spotify.com/intl-vi/track/7m48u7EC4gnCfAhwoLfbCE?si=d0c8f969c78c443f"
           }
         },
         "artists": [
           {
-            "name": "David Bowie"
+            "name": "Girls' Generation"
           }
         ],
-        "added_at": "2024-08-15T17:27:17Z",
-        "duration_ms": 283758
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 230000
       },
       {
-        "id": "6e65fH1wClamA2QPI5HUi3",
-        "name": "Prickly Pear",
+        "id": "khoi-track-13",
+        "name": "La Perla",
         "album": {
-          "name": "Knee-Deep In the North Sea",
+          "name": "LUX",
           "images": [
             {
-              "url": "/img/album-covers/6e65fH1wClamA2QPI5HUi3.webp"
+              "url": "/img/album-covers/khoi/13.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/6e65fH1wClamA2QPI5HUi3",
-            "deezer": "https://www.deezer.com/us/track/99279042"
+            "spotify": "https://open.spotify.com/intl-vi/track/4oVO4fGNRRvEn0CRuFO4qv?si=59bc7e0cacec45d9"
           }
         },
         "artists": [
           {
-            "name": "Portico Quartet"
+            "name": "ROSALÍA, Yahritza Y Su Esencia"
           }
         ],
-        "added_at": "2024-08-17T19:11:55Z",
-        "duration_ms": 341942
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 195000
       },
       {
-        "id": "2DPWQEfEW4ptmAQfTbZE76",
-        "name": "Tonight We Fly",
+        "id": "khoi-track-14",
+        "name": "Spring Fever",
         "album": {
-          "name": "Promenade",
+          "name": "LOVE CATCHER",
           "images": [
             {
-              "url": "/img/album-covers/2DPWQEfEW4ptmAQfTbZE76.webp"
+              "url": "/img/album-covers/khoi/14.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/2DPWQEfEW4ptmAQfTbZE76",
-            "deezer": "https://www.deezer.com/us/track/1091791272"
+            "spotify": "https://open.spotify.com/intl-vi/track/1iSUofKC1vrPqRopmiXYag?si=b7a5d9bc9be5405b"
           }
         },
         "artists": [
           {
-            "name": "The Divine Comedy"
+            "name": "YENA, DINDIN, Jung Hyung Don"
           }
         ],
-        "added_at": "2024-08-21T06:30:10Z",
-        "duration_ms": 181080
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 158000
       },
       {
-        "id": "0sxx8bEWlTBmbw0X1Abgc3",
-        "name": "A Hero's Death",
+        "id": "khoi-track-15",
+        "name": "Express Moon",
         "album": {
-          "name": "A Hero's Death",
+          "name": "GLASSY",
           "images": [
             {
-              "url": "/img/album-covers/0sxx8bEWlTBmbw0X1Abgc3.webp"
+              "url": "/img/album-covers/khoi/15.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/0sxx8bEWlTBmbw0X1Abgc3",
-            "deezer": "https://www.deezer.com/us/track/932332832"
+            "spotify": "https://open.spotify.com/intl-vi/track/3n2FfnO1tjMxyWHofqKX7S?si=76ff26c5fbc9429c"
           }
         },
         "artists": [
           {
-            "name": "Fontaines D.C."
+            "name": "JO YURI"
           }
         ],
-        "added_at": "2024-08-21T07:27:02Z",
-        "duration_ms": 211512
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 185000
       },
       {
-        "id": "2XXpCrhc1OF0oHvdKSd7SX",
-        "name": "Is It It Or Is It i?",
+        "id": "khoi-track-16",
+        "name": "グライド",
         "album": {
-          "name": "Flickering i",
+          "name": "呼吸",
           "images": [
             {
-              "url": "/img/album-covers/2XXpCrhc1OF0oHvdKSd7SX.webp"
+              "url": "/img/album-covers/khoi/16.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/2XXpCrhc1OF0oHvdKSd7SX",
-            "deezer": "https://www.deezer.com/us/track/1674218847"
+            "spotify": "https://open.spotify.com/intl-vi/track/1i84eCrJbu0EIP5aWToMMa?si=8d9eb930efb340a4"
           }
         },
         "artists": [
           {
-            "name": "Astrel K"
+            "name": "Lily Chou-Chou"
           }
         ],
-        "added_at": "2024-08-29T09:11:42Z",
-        "duration_ms": 356911
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 220000
       },
       {
-        "id": "4PDPn7HosIycoXeoeibFc5",
-        "name": "The Jeweller's Hands",
+        "id": "khoi-track-17",
+        "name": "SAD SONG",
         "album": {
-          "name": "Humbug",
+          "name": "SAD SONG",
           "images": [
             {
-              "url": "/img/album-covers/4PDPn7HosIycoXeoeibFc5.webp"
+              "url": "/img/album-covers/khoi/17.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/4PDPn7HosIycoXeoeibFc5",
-            "deezer": "https://www.deezer.com/us/track/4315586"
+            "spotify": "https://open.spotify.com/intl-vi/track/4AwUc1mdlX4ARHkUNG0iho?si=b31b41898a1c491d"
           }
         },
         "artists": [
           {
-            "name": "Arctic Monkeys"
+            "name": "P1Harmony"
           }
         ],
-        "added_at": "2024-09-04T11:56:50Z",
-        "duration_ms": 344111
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 174000
       },
       {
-        "id": "5Tf1BtJ5v5PebDYSwQXGFv",
-        "name": "Worn / Wander",
+        "id": "khoi-track-18",
+        "name": "Day 1",
         "album": {
-          "name": "Gawk",
+          "name": "The Red - The 1st Album",
           "images": [
             {
-              "url": "/img/album-covers/5Tf1BtJ5v5PebDYSwQXGFv.webp"
+              "url": "/img/album-covers/khoi/18.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/5Tf1BtJ5v5PebDYSwQXGFv",
-            "deezer": "https://www.deezer.com/us/track/396127372"
+            "spotify": "https://open.spotify.com/intl-vi/track/74muMkVdMYoR65lhmdzy13?si=ff4dc8823582477d"
           }
         },
         "artists": [
           {
-            "name": "Vundabar"
+            "name": "Red Velvet"
           }
         ],
-        "added_at": "2024-09-04T12:21:06Z",
-        "duration_ms": 216476
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 206000
       },
       {
-        "id": "3jjsRKEsF42ccXf8kWR3nu",
-        "name": "Washing Machine Heart",
+        "id": "khoi-track-19",
+        "name": "Lemon Black Tea",
         "album": {
-          "name": "Be the Cowboy",
+          "name": "LOVE ALL",
           "images": [
             {
-              "url": "/img/album-covers/3jjsRKEsF42ccXf8kWR3nu.webp"
+              "url": "/img/album-covers/khoi/19.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/3jjsRKEsF42ccXf8kWR3nu",
-            "deezer": "https://www.deezer.com/us/track/526540852"
+            "spotify": "https://open.spotify.com/intl-vi/track/5cASztYWFZ1QNhN54hqzgX?si=2feddc3e616744e8"
           }
         },
         "artists": [
           {
-            "name": "Mitski"
+            "name": "JO YURI"
           }
         ],
-        "added_at": "2024-10-05T17:42:31Z",
-        "duration_ms": 127640
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 162000
       },
       {
-        "id": "6YNfrgCOy1dCXZKKRUuZVq",
-        "name": "Everything Means Nothing To Me",
+        "id": "khoi-track-20",
+        "name": "Yêu Như Ngày Hôm Qua",
         "album": {
-          "name": "Figure 8",
+          "name": "Hồi Ức Thanh Xuân",
           "images": [
             {
-              "url": "/img/album-covers/6YNfrgCOy1dCXZKKRUuZVq.webp"
+              "url": "/img/album-covers/khoi/20.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/6YNfrgCOy1dCXZKKRUuZVq",
-            "deezer": "https://www.deezer.com/us/track/2285241"
+            "spotify": "https://open.spotify.com/intl-vi/track/0EMW0FgNDcmft9Fc6gWwQP?si=20d8aedfe5ea47cb"
           }
         },
         "artists": [
           {
-            "name": "Elliott Smith"
+            "name": "Nguyên Hà"
           }
         ],
-        "added_at": "2024-10-09T14:19:43Z",
-        "duration_ms": 142942
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 263000
       },
       {
-        "id": "1dMcNgBWGFNgnXAm4IJQZX",
-        "name": "Saint Simon",
+        "id": "khoi-track-21",
+        "name": "The fifth season (SSFWL)",
         "album": {
-          "name": "Chutes Too Narrow",
+          "name": "THE FIFTH SEASON",
           "images": [
             {
-              "url": "/img/album-covers/1dMcNgBWGFNgnXAm4IJQZX.webp"
+              "url": "/img/album-covers/khoi/21.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/1dMcNgBWGFNgnXAm4IJQZX",
-            "deezer": "https://www.deezer.com/us/track/2459694965"
+            "spotify": "https://open.spotify.com/intl-vi/track/3OOule225U6G8jfuR9tHIB?si=e65b9347594145da"
           }
         },
         "artists": [
           {
-            "name": "The Shins"
+            "name": "OH MY GIRL"
           }
         ],
-        "added_at": "2024-10-17T08:48:32Z",
-        "duration_ms": 265613
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 240000
       },
       {
-        "id": "7gNJfhbuxZ6i3xmLE2Tp4n",
-        "name": "Class Historian",
+        "id": "khoi-track-22",
+        "name": "tâm",
         "album": {
-          "name": "Just Enough Hip to Be Woman",
+          "name": "sinh",
           "images": [
             {
-              "url": "/img/album-covers/7gNJfhbuxZ6i3xmLE2Tp4n.webp"
+              "url": "/img/album-covers/khoi/22.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/7gNJfhbuxZ6i3xmLE2Tp4n",
-            "deezer": "https://www.deezer.com/us/track/136282240"
+            "spotify": "https://open.spotify.com/intl-vi/track/0mT2YgsN7ib5vaBaYdpUaN?si=d86d428b1e704fff"
           }
         },
         "artists": [
           {
-            "name": "BRONCHO"
+            "name": "Mer, Kriss Ngo"
           }
         ],
-        "added_at": "2025-01-03T07:20:12Z",
-        "duration_ms": 212323
+        "added_at": "2026-06-12T00:00:00Z",
+        "duration_ms": 108000
       },
       {
-        "id": "5neQ6EwRFLQijwXgiJ74Ta",
-        "name": "Late in the Evening - Live at Central Park, NY",
+        "id": "khoi-track-23",
+        "name": "Delulu",
         "album": {
-          "name": "The Concert in Central Park (Live)",
+          "name": "Delulu Pack",
           "images": [
             {
-              "url": "/img/album-covers/5neQ6EwRFLQijwXgiJ74Ta.webp"
+              "url": "/img/album-covers/khoi/23.png"
             }
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/track/5neQ6EwRFLQijwXgiJ74Ta",
-            "deezer": "https://www.deezer.com/us/track/90409391"
+            "spotify": "https://open.spotify.com/intl-vi/track/3BWXNAPGGWhCJwsOFolnBB?si=7f0a33e470f14db9"
           }
         },
         "artists": [
           {
-            "name": "Simon & Garfunkel"
+            "name": "KiiiKiii"
           }
         ],
-        "added_at": "2025-07-30T08:20:43Z",
-        "duration_ms": 247833
-      },
-      {
-        "id": "2AWFVhpDR8T8RIzFFJdatK",
-        "name": "Don't Kiss Me Goodbye",
-        "album": {
-          "name": "Ultra Orange & Emmanuelle",
-          "images": [
-            {
-              "url": "/img/album-covers/2AWFVhpDR8T8RIzFFJdatK.webp"
-            }
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/track/2AWFVhpDR8T8RIzFFJdatK",
-            "deezer": "https://www.deezer.com/us/track/535077"
-          }
-        },
-        "artists": [
-          {
-            "name": "Ultra Orange, Emmanuelle Seigner"
-          }
-        ],
-        "added_at": "2025-08-11T08:37:42Z",
-        "duration_ms": 255026
-      },
-      {
-        "id": "1gnP3cx9uzFAVll8OfBcqz",
-        "name": "This Time Tomorrow (2020 Stereo Remaster)",
-        "album": {
-          "name": "Lola Versus Powerman and the Moneygoround, Pt. 1",
-          "images": [
-            {
-              "url": "/img/album-covers/1gnP3cx9uzFAVll8OfBcqz.webp"
-            }
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/track/1gnP3cx9uzFAVll8OfBcqz",
-            "deezer": "https://www.deezer.com/us/track/131313320"
-          }
-        },
-        "artists": [
-          {
-            "name": "The Kinks"
-          }
-        ],
-        "added_at": "2025-08-11T08:42:32Z",
-        "duration_ms": 203973
-      },
-      {
-        "id": "57rAvblBMBmdPBugRF1T77",
-        "name": "The Skin of My Yellow Country Teeth",
-        "album": {
-          "name": "Clap Your Hands Say Yeah",
-          "images": [
-            {
-              "url": "/img/album-covers/57rAvblBMBmdPBugRF1T77.webp"
-            }
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/track/57rAvblBMBmdPBugRF1T77",
-            "deezer": "https://www.deezer.com/us/track/1043338222"
-          }
-        },
-        "artists": [
-          {
-            "name": "Clap Your Hands Say Yeah"
-          }
-        ],
-        "added_at": "2025-09-15T06:57:42Z",
-        "duration_ms": 343773
+        "added_at": "2026-10-03T00:00:00Z",
+        "duration_ms": 144000
       }
     ],
-    "length": 27
+    "length": 23
   }
 }

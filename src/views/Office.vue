@@ -86,7 +86,6 @@ import Services from '@/components/Windows/Services.vue'
 import DesktopAppsLayout from '@/layouts/DesktopAppsLayout.vue'
 import Window from '@/layouts/Window.vue'
 import windowsData from '@/data/windows-data.json'
-import ClippyModal from '@/components/Modals/ClippyModal.vue'
 
 const showHeader = ref(false)
 const windows = ref([])

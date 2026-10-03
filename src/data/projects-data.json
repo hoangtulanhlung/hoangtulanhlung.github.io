@@ -2,97 +2,37 @@
   "categories": [
     {
       "name": {
-        "en": "Websites",
-        "fr": "Sites web"
+        "en": "Creative Competitions",
+        "fr": "Creative Competitions"
       },
       "projects": [
         {
-          "name": "Logma Production",
-          "icon": "projects/folder-logma-icon.webp",
+          "name": "Vietnam Young Lions 2026",
+          "icon": "projects/vyl-2026.png",
           "title": {
-            "en": "Logma Production - Showcase website",
-            "fr": "Logma Production - Site vitrine"
+            "en": "Vietnam Young Lions 2026 - Film Category",
+            "fr": "Vietnam Young Lions 2026 - Film Category"
           },
           "date": {
-            "en": "2023 - 2 months",
-            "fr": "2023 - 2 mois"
+            "en": "2026 · Team of 2 · Top 5 Finalist",
+            "fr": "2026 · Team of 2 · Top 5 Finalist"
           },
-          "componentName": "LogmaContent",
+          "componentName": "VYL2026Content",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "Pangaia",
-          "icon": "projects/folder-pangaia-icon.webp",
+          "name": "CMO Think & Action 2025",
+          "icon": "projects/cmo-2025.png",
           "title": {
-            "en": "Pangaia - Web Application",
-            "fr": "Pangaia - Application web"
+            "en": "CMO Think & Action 2025 - Closeup",
+            "fr": "CMO Think & Action 2025 - Closeup"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Actuel"
+            "en": "2025",
+            "fr": "2025"
           },
-          "componentName": "PangaiaContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Clench",
-          "icon": "projects/folder-clench-icon.webp",
-          "title": {
-            "en": "Clench - Web Application",
-            "fr": "Clench - Application web"
-          },
-          "date": {
-            "en": "2024 - 1 weeks",
-            "fr": "2024 - 1 semaines"
-          },
-          "componentName": "ClenchContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "EMC2 (ScreenUp)",
-          "icon": "projects/folder-emc2-icon.webp",
-          "title": {
-            "en": "L'EMC2 - Wordpress website (ScreenUp)",
-            "fr": "L'EMC2 - Site Wordpress (ScreenUp)"
-          },
-          "date": {
-            "en": "2024 - 1 month",
-            "fr": "2024 - 1 mois"
-          },
-          "componentName": "Emc2Content",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Aidella",
-          "icon": "projects/folder-aidella-icon.webp",
-          "title": {
-            "en": "Les Terres d'Aidella - Blog website",
-            "fr": "Les Terres d'Aidella - Site web / Blog"
-          },
-          "date": {
-            "en": "2025 - 3 weeks",
-            "fr": "2025 - 3 semaines"
-          },
-          "componentName": "AidellaContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Portfolio Fanny",
-          "icon": "projects/folder-fanny-icon.webp",
-          "title": {
-            "en": "Fanny Séraudie - Portfolio website",
-            "fr": "Fanny Séraudie - Portfolio"
-          },
-          "date": {
-            "en": "2025 - 2 weeks",
-            "fr": "2025 - 2 semaines"
-          },
-          "componentName": "FannyContent",
+          "componentName": "CMO2025Content",
           "isFocus": false,
           "isActive": false
         }
@@ -100,22 +40,141 @@
     },
     {
       "name": {
-        "en": "Servers",
-        "fr": "Serveurs"
+        "en": "Work Experience",
+        "fr": "Work Experience"
       },
       "projects": [
         {
-          "name": "Homeserver",
-          "icon": "projects/homeserver-icon.webp",
+          "name": "Kinder Bueno",
+          "icon": "projects/kinder-bueno.png",
           "title": {
-            "en": "Application server & NAS",
-            "fr": "Serveur d'application & stockage NAS"
+            "en": "Kinder Bueno - Commercial Production",
+            "fr": "Kinder Bueno - Commercial Production"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Actuel"
+            "en": "2025",
+            "fr": "2025"
           },
-          "componentName": "HomeserverContent",
+          "componentName": "KinderBuenoContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Govee Christmas Lights",
+          "icon": "projects/govee.png",
+          "title": {
+            "en": "Govee Christmas Lights - Commercial Production",
+            "fr": "Govee Christmas Lights - Commercial Production"
+            },
+          "date": {
+            "en": "2025",
+            "fr": "2025"
+          },
+          "componentName": "GoveeContent",
+          "isFocus": false,
+          "isActive": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "School Projects",
+        "fr": "School Projects"
+      },
+      "projects": [
+        {
+          "name": "Logitech",
+          "icon": "projects/logitech.png",
+          "title": {
+            "en": "Logitech - Creative Advertising",
+            "fr": "Logitech - Creative Advertising"
+          },
+          "componentName": "LogitechContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Durex",
+          "icon": "projects/durex.png",
+          "title": {
+            "en": "Durex - Integrated Marketing Campaign",
+            "fr": "Durex - Integrated Marketing Campaign"
+          },
+          "componentName": "DurexContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Vinamilk",
+          "icon": "projects/vinamilk.png",
+          "title": {
+            "en": "Vinamilk - Brand Management",
+            "fr": "Vinamilk - Brand Management"
+          },
+          "componentName": "VinamilkContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Kinh Đô",
+          "icon": "projects/kinhdo.png",
+          "title": {
+            "en": "Kinh Đô - Integrated Marketing Communication",
+            "fr": "Kinh Đô - Integrated Marketing Communication"
+          },
+          "componentName": "KinhDoContent",
+          "isFocus": false,
+          "isActive": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Personal Projects",
+        "fr": "Personal Projects"
+      },
+      "projects": [
+        {
+          "name": "Iconic Street Scene",
+          "icon": "projects/iconic-street-scene.png",
+          "title": {
+            "en": "Iconic Street Scene - Creative Imagery",
+            "fr": "Iconic Street Scene - Creative Imagery"
+          },
+          "componentName": "IconicStreetSceneContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Folktale Portrayal",
+          "icon": "projects/folktale-portrayal.png",
+          "title": {
+            "en": "Folktale Portrayal - Creative Imagery",
+            "fr": "Folktale Portrayal - Creative Imagery"
+          },
+          "componentName": "FolktalePortrayalContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "The Hood",
+          "icon": "projects/the-hood.png",
+          "title": {
+            "en": "Xóm Đạo, District 8 - Visual Identity",
+            "fr": "Xóm Đạo, District 8 - Visual Identity"
+          },
+          "componentName": "TheHoodContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Sign Poster",
+          "icon": "projects/sign-poster.png",
+          "title": {
+            "en": "Tóc Triều Tiên - Dada Poster",
+            "fr": "Tóc Triều Tiên - Dada Poster"
+          },
+          "componentName": "SignPosterContent",
           "isFocus": false,
           "isActive": false
         }

@@ -12,6 +12,19 @@ import PangaiaContent from '@/components/Windows/MyProjects/PangaiaContent.vue'
 import FannyContent from './MyProjects/FannyContent.vue'
 import Emc2Content from './MyProjects/Emc2Content.vue'
 import AidellaContent from './MyProjects/AidellaContent.vue'
+import ComingSoonContent from './MyProjects/ComingSoonContent.vue'
+import VYL2026Content from './MyProjects/VYL2026Content.vue'
+import CMO2025Content from './MyProjects/CMO2025Content.vue'
+import KinderBuenoContent from './MyProjects/KinderBuenoContent.vue'
+import GoveeContent from './MyProjects/GoveeContent.vue'
+import LogitechContent from './MyProjects/LogitechContent.vue'
+import DurexContent from './MyProjects/DurexContent.vue'
+import VinamilkContent from './MyProjects/VinamilkContent.vue'
+import KinhDoContent from './MyProjects/KinhDoContent.vue'
+import IconicStreetSceneContent from './MyProjects/IconicStreetSceneContent.vue'
+import FolktalePortrayalContent from './MyProjects/FolktalePortrayalContent.vue'
+import TheHoodContent from './MyProjects/TheHoodContent.vue'
+import SignPosterContent from './MyProjects/SignPosterContent.vue'
 
 const props = defineProps({
   leftMenuType: String
@@ -74,7 +87,19 @@ const closeAllProjects = () => {
 
 // Map of component names to component objects
 const componentMap = {
-  HomeserverContent,
+  ComingSoonContent,
+  VYL2026Content,
+  CMO2025Content,
+  KinderBuenoContent,
+  GoveeContent,
+  LogitechContent,
+  DurexContent,
+  VinamilkContent,
+  KinhDoContent,
+  IconicStreetSceneContent,
+  FolktalePortrayalContent,
+  TheHoodContent,
+  SignPosterContent,
   ClenchContent,
   LogmaContent,
   PangaiaContent,
@@ -156,24 +181,32 @@ window.addEventListener('click', (e) => {
         <!-- Content for the projects -->
         <div class="flex flex-wrap gap-2 pt-2 md:pt-3 pb-3 w-full">
           <div
-            v-for="project in category.projects"
-            :key="project.name"
-            @click="focusProject(project)"
-            @dblclick="toggleProject(project)"
-            class="flex items-center px-4 pb-2 gap-2.5 cursor-pointer project-card"
-            :class="{ active: project.isFocus }"
-          >
-            <img :src="'/img/icons/' + project.icon" alt="project" class="w-10 h-10" :style="{ opacity: project.isFocus ? 0.5 : 1 }" />
-            <p
-              class="text-xs font-tahoma font-medium"
-              :style="{
-                backgroundColor: project.isFocus ? '#0B61FF' : 'transparent',
-                color: project.isFocus ? 'white' : 'black'
-              }"
-            >
-              {{ project.name }}
-            </p>
-          </div>
+  v-for="project in category.projects"
+  :key="project.name"
+  @click="focusProject(project)"
+  @dblclick="toggleProject(project)"
+  class="flex items-center px-4 pb-2 gap-2 cursor-pointer project-card w-[155px]"
+  :class="{ active: project.isFocus }"
+>
+  <div class="w-10 h-10 flex items-center justify-center shrink-0">
+    <img
+      :src="'/img/icons/' + project.icon"
+      alt="project"
+      class="max-w-10 max-h-10 object-contain"
+      :style="{ opacity: project.isFocus ? 0.5 : 1 }"
+    />
+  </div>
+
+  <p
+    class="text-xs font-tahoma font-medium leading-tight"
+    :style="{
+      backgroundColor: project.isFocus ? '#0B61FF' : 'transparent',
+      color: project.isFocus ? 'white' : 'black'
+    }"
+  >
+    {{ project.name }}
+  </p>
+</div>
         </div>
       </div>
     </div>

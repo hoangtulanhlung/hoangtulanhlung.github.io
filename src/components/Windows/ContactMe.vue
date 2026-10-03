@@ -163,7 +163,7 @@ watch([userEmail, userMessage, emailSubject], ([newUserEmail, newUserMessage, ne
         <input
           type="text"
           class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none placeholder:text-black"
-          placeholder="jaguinpaul@gmail.com"
+          placeholder="june8th2004khoi@gmail.com"
           readonly="readonly"
         />
       </label>
@@ -196,9 +196,29 @@ watch([userEmail, userMessage, emailSubject], ([newUserEmail, newUserMessage, ne
             :placeholder="$t('windows.contact.msgPlaceholder')"
           ></textarea>
         </div>
-        <p class="text-xs font-trebuchet-pixel italic mb-2">
-          {{ $t('windows.contact.description') }}
-        </p>
+        <p class="text-xs font-trebuchet-pixel italic mb-3">
+  Feel free to reach out for work, collaborations, or just to say hi.
+</p>
+
+<div class="text-xs font-trebuchet-pixel flex gap-3 mb-3">
+  <a
+    href="https://www.instagram.com/hoangtulanhlung2004/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-blue-700 underline"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/trong-khoi-nguyen-7b2898258/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-blue-700 underline"
+  >
+    LinkedIn
+  </a>
+</div>
         <div class="flex gap-2 items-center">
           <p class="text-xs text-green-600 font-medium" v-show="emailSent">
             {{ $t('windows.contact.success') }}

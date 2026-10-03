@@ -1,10 +1,14 @@
 <template>
   <div class="relative right-0 h-content-window flex">
     <WindowLeftMenu :leftMenuType="props.leftMenuType" />
+
     <div class="w-full h-full bg-white overflow-auto overflow-x-hidden pb-8 md:pb-5 relative">
       <div class="m-2">
+
+        <!-- Document list -->
         <section v-if="!goBackStore.currentActiveDocument">
           <div class="flex flex-wrap md:flex-row md:gap-1.5 flex-col gap-3">
+
             <div
               v-for="page in pages"
               :key="page.name"
@@ -13,7 +17,13 @@
               class="flex items-center gap-1 cursor-pointer"
               :class="{ active: page.isFocused }"
             >
-              <img :src="'/img/icons/documents/' + page.icon" alt="Office icon" class="w-11 h-11" :style="{ opacity: page.isFocused ? 0.6 : 1 }" />
+              <img
+                :src="'/img/icons/documents/' + page.icon"
+                alt="Document icon"
+                class="w-11 h-11"
+                :style="{ opacity: page.isFocused ? 0.6 : 1 }"
+              />
+
               <div
                 class="px-1 text-left"
                 :style="{
@@ -21,14 +31,41 @@
                   color: page.isFocused ? 'white' : 'black'
                 }"
               >
-                <p class="text-xs font-tahoma font-medium leading-tight">{{ $t(page.name) }}</p>
-                <p :class="'text-xxs ' + [page.isFocused ? 'text-gray-192' : 'text-gray-400']">{{ $t(page.type) }}</p>
-                <p :class="'text-xxs ' + [page.isFocused ? 'text-gray-192' : 'text-gray-400']">{{ page.size }}</p>
+                <p class="text-xs font-tahoma font-medium leading-tight">
+                  {{ page.name }}
+                </p>
+
+                <p
+                  :class="'text-xxs ' + [
+                    page.isFocused
+                      ? 'text-gray-192'
+                      : 'text-gray-400'
+                  ]"
+                >
+                  {{ $t(page.type) }}
+                </p>
+
+                <p
+                  :class="'text-xxs ' + [
+                    page.isFocused
+                      ? 'text-gray-192'
+                      : 'text-gray-400'
+                  ]"
+                >
+                  {{ page.size }}
+                </p>
               </div>
             </div>
+
           </div>
         </section>
-        <component :is="currentComponent" v-if="currentComponent" />
+
+        <!-- Opened document -->
+        <component
+          :is="currentComponent"
+          v-if="currentComponent"
+        />
+
       </div>
     </div>
   </div>
@@ -38,10 +75,10 @@
 import { ref, computed, onUnmounted } from 'vue'
 import { useGoBackStore } from '@/stores/goBackStore'
 import WindowLeftMenu from '@/components/Windows/WindowLeftMenu.vue'
-import About from './About.vue'
-import Legal from './Legal.vue'
 
-// Stores management
+import Huhu from './Huhu.vue'
+import Hihi from './Hihi.vue'
+
 const goBackStore = useGoBackStore()
 
 const props = defineProps({
@@ -50,33 +87,36 @@ const props = defineProps({
 
 const pages = ref([
   {
-    name: 'windows.documents.about.title',
+    name: 'huhu',
     type: 'common.textDocument',
     icon: 'txt-icon.webp',
     size: '5KB',
     isFocused: false,
     isActive: false,
-    component: 'About'
+    component: 'Huhu'
   },
   {
-    name: 'windows.documents.legal.title',
+    name: 'hihi',
     type: 'common.textDocument',
     icon: 'txt-icon.webp',
-    size: '11KB',
+    size: '5KB',
     isFocused: false,
     isActive: false,
-    component: 'Legal'
+    component: 'Hihi'
   }
 ])
 
 const componentMap = {
-  About,
-  Legal
+  Huhu,
+  Hihi
 }
 
 const currentComponent = computed(() => {
   const activeDocument = goBackStore.currentActiveDocument
-  return activeDocument ? componentMap[activeDocument.component] : null
+
+  return activeDocument
+    ? componentMap[activeDocument.component]
+    : null
 })
 
 onUnmounted(() => {

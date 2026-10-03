@@ -40,9 +40,9 @@
     "english": "Anglais"
   },
   "message": {
-    "welcome": "Bienvenue sur mon ordinateur.",
-    "toBegin": "Pour commencer, cliquez sur mon nom d’utilisateur",
-    "explainer": "Après avoir ouvert ma session, vous pourrez vous balader dans les dossiers de mon ordinateur. Depuis le bureau vous pourrez vois mes projets"
+    "welcome": "Welcome to my computer.",
+    "toBegin": "To begin the journey, click on my username.",
+    "explainer": "After logging in, you can browse through the folders on my computer. Go to the desktop and click on the projects folder to see all my projects."
   },
   "header": {
     "disconnect": "Se Déconnecter",
