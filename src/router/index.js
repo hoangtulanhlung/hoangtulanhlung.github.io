@@ -14,7 +14,7 @@ const router = createRouter({
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com'
+            href: 'https://hoangtulanhlung.com'
           },
           {
             name: 'title',
@@ -23,7 +23,7 @@ const router = createRouter({
           {
             name: 'description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Découvrez le portfolio de Nguyen Trong Khoi, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
           },
           {
             name: 'keywords',
@@ -31,7 +31,7 @@ const router = createRouter({
           },
           {
             name: 'author',
-            content: 'Trong Khoi'
+            content: 'Nguyen Trong Khoi'
           },
           {
             name: 'robots',
@@ -68,15 +68,15 @@ const router = createRouter({
           {
             name: 'twitter:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Welcome to my computer."
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://hoangtulanhlung.com/img/logoblack.png'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Nguyen Trong Khoi'
           },
           {
             property: 'og:type',
@@ -84,28 +84,28 @@ const router = createRouter({
           },
           {
             property: 'og:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             property: 'og:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Welcome to my computer."
           },
           {
             property: 'og:site_name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Portfolio | Nguyen Trong Khoi'
           },
           {
             property: 'og:url',
-            content: 'https://pauljaguin.com'
+            content: 'https://hoangtulanhlung.com'
           },
           {
             property: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://hoangtulanhlung.com/img/logoblack.png'
           },
           {
             property: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Nguyen Trong Khoi'
           },
           {
             property: 'og:locale',
@@ -127,7 +127,7 @@ const router = createRouter({
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com/office'
+            href: 'https://hoangtulanhlung.com/office'
           },
           {
             name: 'title',
@@ -136,15 +136,15 @@ const router = createRouter({
           {
             name: 'description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Welcome to my computer."
           },
           {
             name: 'keywords',
-            content: 'bureau, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'bureau, trong khoi, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Nguyen Trong Khoi'
           },
           {
             name: 'robots',
@@ -181,15 +181,15 @@ const router = createRouter({
           {
             name: 'twitter:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Welcome to my computer."
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://hoangtulanhlung.com/img/logoblack.png'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Nguyen Trong Khoi'
           },
           {
             name: 'og:type',
@@ -202,7 +202,7 @@ const router = createRouter({
           {
             name: 'og:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Welcome to my computer."
           },
           {
             name: 'og:site_name',
@@ -210,15 +210,15 @@ const router = createRouter({
           },
           {
             name: 'og:url',
-            content: 'https://pauljaguin.com/office'
+            content: 'https://hoangtulanhlung.com/office'
           },
           {
             name: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://hoangtulanhlung.com/img/logoblack.png'
           },
           {
             name: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Nguyen Trong Khoi'
           },
           {
             name: 'og:locale',
