@@ -1,52 +1,41 @@
 <template>
   <section class="text-xs md:text-header-window">
 
+    <!-- Cover -->
     <img
       src="/img/projects/logitech/cover.jpg"
       alt="Logitech Silent Mouse Campaign"
-      class="w-full max-w-[560px] mb-5"
+      class="w-full mb-5"
     />
 
-    <h3 class="mt-5 mb-2">The Brief</h3>
+    <h3 class="mt-5 mb-2 font-bold">
+      JUST A “CLICK” AWAY
+    </h3>
 
-    <p class="mb-2">
-      For our Creative Advertising course, we were tasked with developing
-      a campaign for Logitech’s silent mouse range.
+    <p class="mb-4">
+      A mouse click is small. Until you hear it 300 times in a quiet café.
+      So we made the most annoying sound in the room the star of the campaign,
+      then let Logitech Signature M650 do what it does best: shut it up.
+      Less clicking. Less distracting. More getting things done.
     </p>
 
-    <h3 class="mt-5 mb-2">The Idea</h3>
+    <!-- Key Visual -->
+    <img
+      src="/img/projects/logitech/im-lang.png"
+      alt="Logitech Signature M650 - IM LẶNG là..."
+      class="w-full mt-5 mb-5"
+    />
 
-    <p class="mb-2">
-      We built the campaign around the product’s most distinctive benefit:
-      the absence of sound.
-    </p>
-
-    <p class="mb-2">
-      Instead of treating silence as just a functional feature, we turned it
-      into the creative centerpiece of the campaign and used it to shape the
-      concept, storytelling, and final promotional film.
-    </p>
-
+    <!-- Film -->
     <video
       controls
-      class="w-full max-w-[560px] mt-5 mb-5"
+      class="w-full mt-5 mb-5"
     >
       <source
         src="/videos/logitech.mp4"
         type="video/mp4"
       />
     </video>
-
-    <h3 class="mt-5 mb-2">My Role</h3>
-
-    <p class="mb-2">
-      As Creative Lead, I developed the core concept, wrote the promotional
-      video script, and worked on the filming and editing of the final piece.
-    </p>
-
-    <p class="mb-2">
-      The project received the highest grade in the class.
-    </p>
 
     <a
       rel="noopener"

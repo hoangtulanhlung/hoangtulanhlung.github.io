@@ -1,39 +1,42 @@
 <template>
   <section class="text-xs md:text-header-window">
 
+    <!-- Cover -->
     <img
-      src="/img/projects/kinh-do/cover.jpg"
-      alt="Kinh Do IMC Project"
-      class="w-full max-w-[560px] mb-5"
+      src="/img/projects/kinh-do/cover.png"
+      alt="Kinh Do Tet Campaign"
+      class="w-full mb-5"
     />
 
-    <h3 class="mt-5 mb-2">The Project</h3>
+    <h3 class="mt-5 mb-2 font-bold">
+      “SUM VẦY” IS A TWO-WAY STREET.
+    </h3>
 
-    <p class="mb-2">
-      For our Introduction to Integrated Marketing Communication course, we
-      studied Kinh Do’s communication history and explored how the brand could
-      evolve its familiar message of togetherness for a new campaign.
+    <p class="mb-4">
+      Kinh Do has always stood for togetherness. So we asked what togetherness
+      means when some people are still working while everyone else is celebrating.
+      The campaign turns gratitude into action - inviting people to share Tết with
+      the workers who keep the city moving, and letting Kinh Do become the gesture
+      that brings a little warmth back to those who usually give theirs away.
     </p>
 
-    <h3 class="mt-5 mb-2">The Direction</h3>
-
-    <p class="mb-2">
-      Rather than telling another story simply about families coming together,
-      we shifted the focus toward the people who make those moments possible.
+    <p class="mb-4 font-bold">
+      Gửi trao Tết ấm, đong đầy yêu thương.
     </p>
 
-    <p class="mb-2">
-      The campaign celebrated workers who continue working through the holidays
-      so that others can travel, celebrate, and spend meaningful time with
-      their loved ones — reframing togetherness through the sacrifices behind it.
-    </p>
+    <!-- Su Gia Kinh Do -->
+    <img
+      src="/img/projects/kinh-do/su-gia.png"
+      alt="Su Gia Kinh Do campaign activation"
+      class="w-full mt-5 mb-4"
+    />
 
-    <h3 class="mt-5 mb-2">My Contribution</h3>
-
-    <p class="mb-2">
-      I spearheaded the creative direction, helping shape the central idea and
-      translate the strategic shift into the campaign’s overall narrative.
-    </p>
+    <!-- Product Innovation -->
+    <img
+      src="/img/projects/kinh-do/innovation.png"
+      alt="Kinh Do Tet product innovation"
+      class="w-full mb-5"
+    />
 
     <a
       rel="noopener"

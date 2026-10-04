@@ -1,52 +1,43 @@
 <template>
   <section class="text-xs md:text-header-window">
 
+    <!-- Cover -->
     <img
       src="/img/projects/durex/cover.jpg"
       alt="Durex Express, Durex Experience"
-      class="w-full max-w-[560px] mb-5"
+      class="w-full mb-5"
     />
 
-    <h3 class="mt-5 mb-2">The Brief</h3>
+    <h3 class="mt-5 mb-2 font-bold">
+      DUREXPRESS, DUREXPERIENCE
+    </h3>
 
-    <p class="mb-2">
-      For our Multimedia Communication Management course, we were tasked with
-      developing an integrated campaign for Durex that could connect with
-      young audiences in a relevant and engaging way.
+    <p class="mb-4">
+      Some things are easier to try than to say out loud.
+      So instead of asking couples to have an awkward conversation,
+      we let Durex do some of the talking. Each condom became a playful
+      suggestion for something new to try - turning protection into a little
+      nudge to express what you want, explore what you like, and maybe
+      discover a new favourite.
     </p>
 
-    <h3 class="mt-5 mb-2">The Idea</h3>
-
-    <p class="mb-2">
-      We developed the campaign platform “Durex Express, Durex Experience,”
-      built around the idea: Express Freely to Experience Fully.
+    <p class="mb-4 font-bold">
+      Express freely to experience fully.
     </p>
 
-    <p class="mb-2">
-      The campaign encouraged people to communicate their wants, boundaries,
-      and feelings more openly — positioning self-expression as an essential
-      part of creating better experiences and stronger connections.
-    </p>
+    <!-- Campaign Mockup 1 -->
+    <img
+      src="/img/projects/durex/mockup.jpg"
+      alt="Durex campaign packaging mockup"
+      class="w-full mt-5 mb-4"
+    />
 
-    <div class="mt-4 mb-5">
-      <img
-        src="/img/projects/durex/mockup.jpg"
-        alt="Durex campaign mockup"
-        class="w-full max-w-[560px]"
-      />
-
-      <p class="mt-1 text-xxs">
-        Campaign mockup
-      </p>
-    </div>
-
-    <h3 class="mt-5 mb-2">My Role</h3>
-
-    <p class="mb-2">
-      I spearheaded the campaign’s big idea and creative direction, and
-      developed product mockups to bring the concept to life across different
-      touchpoints.
-    </p>
+    <!-- Campaign Mockup 2 -->
+    <img
+      src="/img/projects/durex/mockup-2.jpg"
+      alt="Durex campaign execution mockup"
+      class="w-full mb-5"
+    />
 
     <a
       rel="noopener"

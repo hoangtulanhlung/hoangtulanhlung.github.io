@@ -1,34 +1,36 @@
 <template>
   <section class="text-xs md:text-header-window">
 
+    <!-- Cover -->
     <img
-      src="/img/projects/cmo-2025/cover.jpg"
-      alt="CMO Think & Action 2025"
-      class="w-full max-w-[560px] mb-5"
+      src="/img/projects/cmo-2025/cover.png"
+      alt="CMO Think & Action 2025 - Closeup Precision Clean"
+      class="w-full mb-5"
     />
 
-    <h3 class="mt-5 mb-2">The Challenge</h3>
+    <h3 class="mt-5 mb-2 font-bold">
+      CLOSE THE MESS, UP THE REST.
+    </h3>
 
-    <p class="mb-2">
-      CloseUp challenged us to develop a brand strategy and communication
-      approach that could unlock 3X growth for its toothbrush range in 2026,
-      with a 1 billion VND budget. The campaign also needed to feel relevant,
-      shareable, and culturally resonant with Vietnamese Gen Z.
+    <p class="mb-4">
+      When life feels out of control, sometimes the smallest ritual is enough
+      to pull you back in. We turned brushing your teeth into a three-minute
+      power-up ritual, then built a playful world around it - one that feels
+      personal, collectible, and expressive, with every detail shaped around
+      the different colors and personalities of the brushes. The idea was
+      simple: get one small thing right, and maybe the rest of the day follows.
     </p>
 
-    <h3 class="mt-5 mb-2">The Strategy</h3>
-
-    <p class="mb-2">
-      We positioned Closeup Precision Clean as more than just a toothbrush —
-      but as a premium lifestyle accessory that reflects Gen Z’s sense of
-      self-expression.
+    <p class="mb-4 font-bold">
+      Mượt mà việc nhỏ, vững đà việc to.
     </p>
 
-    <p class="mb-2">
-      Our strategic platform, “CLOSE the mess, UP the rest” reframed oral care
-      as part of getting yourself together: clearing away what gets in the way
-      so you can show up more confidently in the moments that matter.
-    </p>
+    <!-- Ritual Mockup -->
+    <img
+      src="/img/projects/cmo-2025/ritual.png"
+      alt="Closeup Precision Clean morning ritual mockup"
+      class="w-full mt-5 mb-5"
+    />
 
     <a
       rel="noopener"
