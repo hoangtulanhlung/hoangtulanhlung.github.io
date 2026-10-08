@@ -1,3 +1,4 @@
+
 <script setup>
 const props = defineProps({
   age: Number
@@ -5,11 +6,11 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="grid grid-flow-col auto-cols-max gap-2">
+  <div class="cv-profile">
     <img
       src="/img/icons/cv/khoi.jpg"
       alt="Nguyen Trong Khoi"
-      class="w-20 h-20 object-cover"
+      class="cv-profile-image"
     />
 
     <div class="flex justify-center flex-col">
@@ -26,3 +27,22 @@ const props = defineProps({
     </div>
   </div>
 </template>
+
+<style scoped>
+.cv-profile {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 8px;
+  align-items: center;
+  container-type: inline-size;
+}
+
+.cv-profile-image {
+  width: clamp(80px, 20cqw, 240px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+</style>
