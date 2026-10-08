@@ -22,7 +22,7 @@ const props = defineProps({
 
     <div class="flex items-center ml-10">
       <h2 class="font-trebuchet-pixel py-1">
-        Copywriter
+        Creative
       </h2>
     </div>
   </div>
