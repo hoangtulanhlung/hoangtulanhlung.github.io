@@ -1,35 +1,46 @@
 {
-  "fr": {
+  "vi": {
     "education": [
       {
-        "degree": "B.ECON. INTEGRATED MARKETING COMMUNICATION",
-        "institution": "Foreign Trade University Ho Chi Minh City Campus",
+        "degree": "CỬ NHÂN KINH TẾ, CHUYÊN NGÀNH TRUYỀN THÔNG MARKETING TÍCH HỢP",
+        "institution": "Trường Đại học Ngoại thương TP. Hồ Chí Minh",
         "year": "2022 - 2026"
       }
     ],
     "workExperience": [
       {
+        "jobTitle": "PRODUCTION APPRENTICE",
+        "company": "Happiness Saigon",
+        "year": "Tháng 7/2026 - Tháng 10/2026",
+        "responsibilities": [
+          "Tham gia hỗ trợ production cho các dự án Jinro, Spotify Mid-Autumn và Duolingo x Mixue, phối hợp cùng creative, account và các đối tác production để đưa ý tưởng vào thực tế",
+          "Tìm kiếm supplier, studio, talent và các giải pháp production dựa trên yêu cầu sáng tạo, tính khả thi, timeline và nhu cầu của từng dự án",
+          "Hỗ trợ on-set ở các đầu việc liên quan đến talent, props, logistics, vendor và call sheet, góp phần đảm bảo quá trình quay diễn ra trơn tru theo kế hoạch"
+        ]
+      },
+      {
         "jobTitle": "PRODUCTION ASSISTANT",
         "company": "116 Pictures",
-        "year": "August - November 2025",
+        "year": "Tháng 8/2025 - Tháng 2/2026",
         "responsibilities": [
-          "Supported commercial productions for global brands including Kinder Bueno and Govee",
-          "Managed casting materials, location scouting, wardrobe coordination, and production logistics",
-          "Coordinated communication between directors, crews, clients, and external partners"
+          "Hỗ trợ production cho các dự án commercial của các thương hiệu quốc tế như Kinder Bueno và Govee",
+          "Phụ trách các đầu việc liên quan đến casting, location scouting, wardrobe và production logistics",
+          "Phối hợp trao đổi giữa đạo diễn, crew, client và các đối tác bên ngoài trong suốt quá trình chuẩn bị và sản xuất"
         ]
       },
       {
         "jobTitle": "HEAD OF HUMAN RESOURCES",
         "company": "CREAT!O - Marketing Club FTU HCMC",
-        "year": "August 2023 - August 2024",
+        "year": "Tháng 8/2023 - Tháng 8/2024",
         "responsibilities": [
-          "Led a 15-member HR team across recruitment, onboarding, and internal engagement",
-          "Designed internal workflows for major club events and recruitment campaigns",
-          "Organized training programs and internal initiatives to improve member capability and engagement"
+          "Dẫn dắt team HR gồm 15 thành viên, phụ trách tuyển thành viên, onboarding và internal engagement",
+          "Xây dựng workflow nội bộ cho các sự kiện lớn và những đợt tuyển thành viên của CLB",
+          "Tổ chức các chương trình training và hoạt động nội bộ nhằm nâng cao năng lực và mức độ gắn kết của thành viên"
         ]
       }
     ]
   },
+
   "en": {
     "education": [
       {
@@ -40,9 +51,19 @@
     ],
     "workExperience": [
       {
+        "jobTitle": "PRODUCTION APPRENTICE",
+        "company": "Happiness Saigon",
+        "year": "July 2026 - October 2026",
+        "responsibilities": [
+          "Supported production across projects for Jinro, Spotify Mid-Autumn and Duolingo x Mixue, working closely with creative, account and external production partners to bring ideas into execution",
+          "Sourced suppliers, studios, talents and production solutions based on creative requirements, feasibility, timelines and project needs",
+          "Assisted on-set execution across talent, props, logistics, vendors and call sheets, helping translate creative plans into smooth shoot-day delivery"
+        ]
+      },
+      {
         "jobTitle": "PRODUCTION ASSISTANT",
         "company": "116 Pictures",
-        "year": "August - November 2025",
+        "year": "August 2025 - February 2026",
         "responsibilities": [
           "Supported commercial productions for global brands including Kinder Bueno and Govee",
           "Managed casting materials, location scouting, wardrobe coordination, and production logistics",

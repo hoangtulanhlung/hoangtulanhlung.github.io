@@ -3,11 +3,11 @@
     "id": "myProjects",
     "title": {
       "en": "My Projects",
-      "fr": "Mes projets"
+      "vi": "Dự án của tôi"
     },
     "subtitle": {
       "en": "See all my projects",
-      "fr": "Voir tous mes projets"
+      "vi": "Xem tất cả dự án của tôi"
     },
     "imgSrc": "/img/icons/projects/projects-icon-lg.webp",
     "onDesktop": true,
@@ -31,11 +31,11 @@
     "id": "contact",
     "title": {
       "en": "Contact me",
-      "fr": "Me contacter"
+      "vi": "Liên hệ"
     },
     "subtitle": {
       "en": "Leave me a message",
-      "fr": "Laissez moi un message"
+      "vi": "Để lại lời nhắn cho tôi"
     },
     "imgSrc": "/img/icons/contact/email-icon-lg.webp",
     "onDesktop": true,
@@ -59,11 +59,11 @@
     "id": "myCV",
     "title": {
       "en": "My CV",
-      "fr": "Mon CV"
+      "vi": "CV của tôi"
     },
     "subtitle": {
       "en": "See the curriculum vitae",
-      "fr": "Voir le curriculum vitae"
+      "vi": "Xem CV của tôi"
     },
     "imgSrc": "/img/icons/cv/cv-icon-lg.webp",
     "onDesktop": true,
@@ -87,7 +87,7 @@
     "id": "music",
     "title": {
       "en": "My Musics",
-      "fr": "Mes Musiques"
+      "vi": "Nhạc của tui"
     },
     "imgSrc": "/img/icons/music/playmusic-icon-lg.webp",
     "onDesktop": true,
@@ -111,7 +111,7 @@
     "id": "documents",
     "title": {
       "en": "My Documents",
-      "fr": "Mes documents"
+      "vi": "Tài liệu của tôi"
     },
     "imgSrc": "/img/icons/documents/folder-docs-icon-sm.webp",
     "onDesktop": false,
@@ -135,7 +135,7 @@
     "id": "pictures",
     "title": {
       "en": "My Pictures",
-      "fr": "Mes Images"
+      "vi": "Hình ảnh của tôi"
     },
     "imgSrc": "/img/icons/pictures/folder-images-icon-sm.webp",
     "onDesktop": false,
@@ -159,7 +159,7 @@
     "id": "calendar",
     "title": {
       "en": "Calendar",
-      "fr": "Calendrier"
+      "vi": "Lịch"
     },
     "imgSrc": "/img/icons/calendar/calendar-icon-lg.webp",
     "onDesktop": false,
@@ -183,7 +183,7 @@
     "id": "minesweeper",
     "title": {
       "en": "Minesweeper",
-      "fr": "Démineur"
+      "vi": "Minesweeper"
     },
     "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
     "onDesktop": true,
@@ -207,7 +207,7 @@
     "id": "notepad",
     "title": {
       "en": "About me",
-      "fr": "Bloc-notes"
+      "vi": "Ai z?"
     },
     "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
     "onDesktop": true,
@@ -231,11 +231,11 @@
     "id": "doom",
     "title": {
       "en": "Doom",
-      "fr": "Doom"
+      "vi": "Doom"
     },
     "subtitle": {
       "en": "Play doom thanks to js-dos",
-      "fr": "Jouer à doom grâce à js-dos"
+      "vi": "Chơi Doom bằng js-dos"
     },
     "imgSrc": "/img/icons/doom/doom-icon-lg.webp",
     "onDesktop": true,
@@ -259,11 +259,11 @@
     "id": "terminal",
     "title": {
       "en": "Terminal",
-      "fr": "Terminal"
+      "vi": "Dòng lệnh"
     },
     "subtitle": {
       "en": "Run commands using the terminal",
-      "fr": "Lancer des commandes avec le terminal"
+      "vi": "Chạy lệnh bằng cửa sổ dòng lệnh"
     },
     "imgSrc": "/img/icons/cmd-icon-lg.webp",
     "onDesktop": false,
@@ -283,15 +283,15 @@
     "component": "Terminal",
     "leftMenuType": ""
   },
-    {
+  {
     "id": "services",
     "title": {
       "en": "Services",
-      "fr": "Prestations"
+      "vi": "Dịch vụ"
     },
     "subtitle": {
       "en": "Check out my services",
-      "fr": "Découvrez mes services"
+      "vi": "Xem các dịch vụ của tôi"
     },
     "imgSrc": "/img/icons/services-icon-lg.webp",
     "onDesktop": false,

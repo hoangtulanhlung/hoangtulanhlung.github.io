@@ -1,21 +1,141 @@
+<script setup>
+import { computed } from 'vue'
+import { useLocaleStore } from '@/stores/localeStore'
+
+const localeStore = useLocaleStore()
+
+const isVietnamese = computed(() => localeStore.currentLocale === 'vi')
+
+const content = computed(() => {
+  if (localeStore.currentLocale === 'vi') {
+    return {
+      introTitle: 'nguyễn trọng khôi',
+      introSubtitle: 'nghĩ gì nói đó',
+      intro:
+        'tui có rất nhiều ý kiến, và nếu quen tui đủ lâu thì kiểu gì bạn cũng sẽ được nghe, mặc kệ bạn có hỏi hay không luôn',
+
+      foodTitle: 'về đồ ăn',
+      food:
+        'tui không đội trời chung với những người không thích Jollibee.',
+
+      drinkTitle: 'về đồ uống',
+      drink:
+        'sâm dứa sữa dở vl.',
+
+      familyTitle: 'về gia đình',
+      family1:
+        'chị hai tui từng đi đánh ghen giùm nhỏ bạn mình trong lúc bả đang có bầu lun.',
+
+      childhoodCaption:
+        'dễ thương k?',
+
+      musicTitle: 'về âm nhạc',
+      musicBefore:
+        'cái album đầu tay ',
+      musicAlbum:
+        'yesteryear',
+      musicAfter:
+        ' của Phùng Khánh Linh hay gấp trăm lần mấy thứ cổ phát hành trong mấy năm gần đây.',
+
+      moviesTitle: 'về phim ảnh',
+      movies:
+        'giờ mà Trấn Thành ko ra phim Tết nữa chắc tui sẽ buồn lắm lun, dù phim nào cũng dở nha huhu (ý kiến riêng) ',
+
+      religionTitle: 'về tín ngưỡng',
+      religion:
+        'Lorde.',
+
+      educationTitle: 'về giáo dục',
+      education:
+        '7 giờ sáng mà bắt vô tiết là một hành vi vi phạm nhân quyền.',
+
+      ftuCaption:
+        'nói v chứ cũng tốt nghiệp đc r nè',
+
+      lifeTitle: 'về cuộc đời',
+      life:
+        'cứ từ từ thôi. có j đâu mà căng.',
+
+      robotCaption:
+        'just keep swimming.'
+    }
+  }
+
+  return {
+    introTitle: 'the less than profound thoughts',
+    introSubtitle: 'of nguyen trong khoi',
+    intro:
+      'i have a lot of opinions, and if you get to know me, i’ll probably share them even if you didn’t ask.',
+
+    foodTitle: 'on food',
+    food:
+      'i don’t trust people who don’t like Jollibee.',
+
+    drinkTitle: 'on drink',
+    drink:
+      'pandan milk is the worst drink ever created in the history of mankind.',
+
+    familyTitle: 'on family',
+    family1:
+      'well yes, my older sister is crazy.',
+    family2:
+      'she once went to beat up her friend’s cheating boyfriend while she was pregnant.',
+
+    childhoodCaption:
+      'before i had this many opinions.',
+
+    musicTitle: 'on music',
+    musicBefore:
+      'Phùng Khánh Linh’s first album, ',
+    musicAlbum:
+      'yesteryear',
+    musicAfter:
+      ', is miles better than anything she’s put out in the past few years.',
+
+    moviesTitle: 'on movies',
+    movies:
+      'i find the annual mediocrity of Trấn Thành’s movies weirdly endearing at this point.',
+
+    religionTitle: 'on religion',
+    religion:
+      'Lorde.',
+
+    educationTitle: 'on education',
+    education:
+      'i think 7 a.m. classes are a human rights violation.',
+
+    ftuCaption:
+      'somehow survived them anyway.',
+
+    lifeTitle: 'on life',
+    life:
+      'take it easy. nothing is that serious.',
+
+    robotCaption:
+      'taking my own advice very seriously.'
+  }
+})
+</script>
+
 <template>
   <div class="relative right-0 h-content-headless-toolbox overflow-hidden">
     <div
       class="about-scroll w-full h-full bg-white overflow-y-scroll overflow-x-hidden"
     >
-      <main class="about-page">
+      <main
+  class="about-page"
+  :class="{ 'about-page-vi': isVietnamese }"
+>
 
         <!-- INTRO -->
         <section class="intro-section">
           <div class="intro-copy">
-            <h1>the less than profound thoughts</h1>
-            <h2>of nguyen trong khoi</h2>
+            <h1>{{ content.introTitle }}</h1>
+            <h2>{{ content.introSubtitle }}</h2>
 
             <p>
-              i have a lot of opinions, and if you get to know me,
-              i’ll probably share them even if you didn’t ask.
+              {{ content.intro }}
             </p>
-
           </div>
 
           <figure class="photo-frame intro-photo">
@@ -31,16 +151,16 @@
         <!-- FOOD + DRINK -->
         <section class="thought-row">
           <div class="thought">
-            <h3>on food</h3>
+            <h3>{{ content.foodTitle }}</h3>
             <p>
-              i don’t trust people who don’t like Jollibee.
+              {{ content.food }}
             </p>
           </div>
 
           <div class="thought">
-            <h3>on drink</h3>
+            <h3>{{ content.drinkTitle }}</h3>
             <p>
-              pandan milk is the worst drink ever created in the history of mankind.
+              {{ content.drink }}
             </p>
           </div>
         </section>
@@ -50,15 +170,14 @@
         <!-- FAMILY -->
         <section class="image-text-section">
           <div class="thought">
-            <h3>on family</h3>
+            <h3>{{ content.familyTitle }}</h3>
 
             <p>
-              well yes, my older sister is crazy.
+              {{ content.family1 }}
             </p>
 
             <p>
-              she once went to beat up her friend’s cheating boyfriend
-              while she was pregnant.
+              {{ content.family2 }}
             </p>
           </div>
 
@@ -68,7 +187,7 @@
               alt="Childhood photo"
             />
             <figcaption>
-              before i had this many opinions.
+              {{ content.childhoodCaption }}
             </figcaption>
           </figure>
         </section>
@@ -78,21 +197,19 @@
         <!-- MUSIC + MOVIES -->
         <section class="thought-row">
           <div class="thought">
-            <h3>on music</h3>
+            <h3>{{ content.musicTitle }}</h3>
 
             <p>
-              Phùng Khánh Linh’s first album,
-              <em>yesteryear</em>, is miles better than anything
-              she’s put out in the past few years.
+              {{ content.musicBefore }}
+              <em>{{ content.musicAlbum }}</em>{{ content.musicAfter }}
             </p>
           </div>
 
           <div class="thought">
-            <h3>on movies</h3>
+            <h3>{{ content.moviesTitle }}</h3>
 
             <p>
-              i find the annual mediocrity of Trấn Thành’s movies
-              weirdly endearing at this point.
+              {{ content.movies }}
             </p>
           </div>
         </section>
@@ -101,8 +218,8 @@
 
         <!-- RELIGION -->
         <section class="religion-section">
-          <h3>on religion</h3>
-          <p class="lorde">Lorde.</p>
+          <h3>{{ content.religionTitle }}</h3>
+          <p class="lorde">{{ content.religion }}</p>
         </section>
 
         <div class="separator"></div>
@@ -110,10 +227,10 @@
         <!-- EDUCATION -->
         <section class="education-section">
           <div class="thought">
-            <h3>on education</h3>
+            <h3>{{ content.educationTitle }}</h3>
 
             <p>
-              i think 7 a.m. classes are a human rights violation.
+              {{ content.education }}
             </p>
           </div>
 
@@ -123,7 +240,7 @@
               alt="FTU memories"
             />
             <figcaption>
-              somehow survived them anyway.
+              {{ content.ftuCaption }}
             </figcaption>
           </figure>
         </section>
@@ -138,15 +255,15 @@
               alt="Me with a robot"
             />
             <figcaption>
-              taking my own advice very seriously.
+              {{ content.robotCaption }}
             </figcaption>
           </figure>
 
           <div class="thought life-copy">
-            <h3>on life</h3>
+            <h3>{{ content.lifeTitle }}</h3>
 
             <p class="final-line">
-              take it easy. nothing is that serious.
+              {{ content.life }}
             </p>
           </div>
         </section>
@@ -169,6 +286,16 @@
 .about-page em,
 .about-page figcaption {
   font-family: "Trebuchet MS pixelated", sans-serif !important;
+}
+
+.about-page.about-page-vi,
+.about-page.about-page-vi p,
+.about-page.about-page-vi h1,
+.about-page.about-page-vi h2,
+.about-page.about-page-vi h3,
+.about-page.about-page-vi em,
+.about-page.about-page-vi figcaption {
+  font-family: Tahoma, sans-serif !important;
 }
 
 .about-page {
@@ -425,12 +552,10 @@ figcaption {
   border: none;
 }
 
-/* ▲ */
 .about-scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='6'%3E%3Cpath d='M0 6 L4 0 L8 6 Z' fill='%23808080'/%3E%3C/svg%3E");
 }
 
-/* ▼ */
 .about-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='6'%3E%3Cpath d='M0 0 L4 6 L8 0 Z' fill='%23808080'/%3E%3C/svg%3E");
 }

@@ -1,11 +1,17 @@
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import emailjs from '@emailjs/browser'
 import Button from '../Buttons/Button.vue'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+
+const contactNote = computed(() => {
+  return locale.value === 'vi'
+    ? 'Rủ tui đi ăn đi chơi gì thì nhắn tui một tiếng nha tks.'
+    : 'Feel free to reach out for work, collaborations, or just to say hi.'
+})
 const userEmail = ref('')
 const emailSubject = ref('')
 const userMessage = ref('')
@@ -197,7 +203,7 @@ watch([userEmail, userMessage, emailSubject], ([newUserEmail, newUserMessage, ne
           ></textarea>
         </div>
         <p class="text-xs font-trebuchet-pixel italic mb-3">
-  Feel free to reach out for work, collaborations, or just to say hi.
+  {{ contactNote }}
 </p>
 
 <div class="text-xs font-trebuchet-pixel flex gap-3 mb-3">

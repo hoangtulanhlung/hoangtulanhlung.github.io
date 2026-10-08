@@ -2,37 +2,81 @@
   "categories": [
     {
       "name": {
-        "en": "Creative Competitions",
-        "fr": "Creative Competitions"
+        "en": "Creative Campaigns",
+        "vi": "Dự án sáng tạo"
       },
       "projects": [
         {
-          "name": "Vietnam Young Lions 2026",
+          "name": "KitKat",
           "icon": "projects/vyl-2026.png",
           "title": {
-            "en": "Vietnam Young Lions 2026 - Film Category",
-            "fr": "Vietnam Young Lions 2026 - Film Category"
+            "en": "Vietnam Young Lions 2026 - KitKat",
+            "vi": "Vietnam Young Lions 2026 - KitKat"
           },
           "date": {
             "en": "2026 · Team of 2 · Top 5 Finalist",
-            "fr": "2026 · Team of 2 · Top 5 Finalist"
+            "vi": "2026 · Team 2 · Top 5 Finalist"
           },
           "componentName": "VYL2026Content",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "CMO Think & Action 2025",
+          "name": "Closeup",
           "icon": "projects/cmo-2025.png",
           "title": {
             "en": "CMO Think & Action 2025 - Closeup",
-            "fr": "CMO Think & Action 2025 - Closeup"
+            "vi": "CMO Think & Action 2025 - Closeup"
           },
           "date": {
             "en": "2025",
-            "fr": "2025"
+            "vi": "2025"
           },
           "componentName": "CMO2025Content",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Durex",
+          "icon": "projects/durex.png",
+          "title": {
+            "en": "Durex - Integrated Marketing Campaign",
+            "vi": "Durex - Integrated Marketing Campaign"
+          },
+          "componentName": "DurexContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Kinh Đô",
+          "icon": "projects/kinhdo.png",
+          "title": {
+            "en": "Kinh Đô - Integrated Marketing Communication",
+            "vi": "Kinh Đô - Integrated Marketing Communication"
+          },
+          "componentName": "KinhDoContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Co-Star",
+          "icon": "projects/co-star.png",
+          "title": {
+            "en": "Co-Star - Spec Campaign",
+            "vi": "Co-Star - Spec Campaign"
+          },
+          "componentName": "CoStarContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
+          "name": "Logitech",
+          "icon": "projects/logitech.png",
+          "title": {
+            "en": "Logitech - Creative Advertising",
+            "vi": "Logitech - Quảng Cáo Sáng Tạo"
+          },
+          "componentName": "LogitechContent",
           "isFocus": false,
           "isActive": false
         }
@@ -40,8 +84,27 @@
     },
     {
       "name": {
-        "en": "Work Experience",
-        "fr": "Work Experience"
+        "en": "Brand & Strategy",
+        "vi": "Thương hiệu & Chiến lược"
+      },
+      "projects": [
+        {
+          "name": "Vinamilk",
+          "icon": "projects/vinamilk.png",
+          "title": {
+            "en": "Vinamilk - Brand Management",
+            "vi": "Vinamilk - Quản lý thương hiệu"
+          },
+          "componentName": "VinamilkContent",
+          "isFocus": false,
+          "isActive": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Production Work",
+        "vi": "Dự án sản xuất"
       },
       "projects": [
         {
@@ -49,26 +112,26 @@
           "icon": "projects/kinder-bueno.png",
           "title": {
             "en": "Kinder Bueno - Commercial Production",
-            "fr": "Kinder Bueno - Commercial Production"
+            "vi": "Kinder Bueno - Sản Xuất Quảng Cáo"
           },
           "date": {
             "en": "2025",
-            "fr": "2025"
+            "vi": "2025"
           },
           "componentName": "KinderBuenoContent",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "Govee Christmas Lights",
+          "name": "Govee",
           "icon": "projects/govee.png",
           "title": {
             "en": "Govee Christmas Lights - Commercial Production",
-            "fr": "Govee Christmas Lights - Commercial Production"
-            },
+            "vi": "Govee Christmas Lights - Sản Xuất Quảng Cáo"
+          },
           "date": {
             "en": "2025",
-            "fr": "2025"
+            "vi": "2025"
           },
           "componentName": "GoveeContent",
           "isFocus": false,
@@ -78,60 +141,8 @@
     },
     {
       "name": {
-        "en": "School Projects",
-        "fr": "School Projects"
-      },
-      "projects": [
-        {
-          "name": "Logitech",
-          "icon": "projects/logitech.png",
-          "title": {
-            "en": "Logitech - Creative Advertising",
-            "fr": "Logitech - Creative Advertising"
-          },
-          "componentName": "LogitechContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Durex",
-          "icon": "projects/durex.png",
-          "title": {
-            "en": "Durex - Integrated Marketing Campaign",
-            "fr": "Durex - Integrated Marketing Campaign"
-          },
-          "componentName": "DurexContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Vinamilk",
-          "icon": "projects/vinamilk.png",
-          "title": {
-            "en": "Vinamilk - Brand Management",
-            "fr": "Vinamilk - Brand Management"
-          },
-          "componentName": "VinamilkContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Kinh Đô",
-          "icon": "projects/kinhdo.png",
-          "title": {
-            "en": "Kinh Đô - Integrated Marketing Communication",
-            "fr": "Kinh Đô - Integrated Marketing Communication"
-          },
-          "componentName": "KinhDoContent",
-          "isFocus": false,
-          "isActive": false
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Personal Projects",
-        "fr": "Personal Projects"
+        "vi": "Dự án cá nhân"
       },
       "projects": [
         {
@@ -139,7 +150,7 @@
           "icon": "projects/iconic-street-scene.png",
           "title": {
             "en": "Iconic Street Scene - Creative Imagery",
-            "fr": "Iconic Street Scene - Creative Imagery"
+            "vi": "Iconic Street Scene - Creative Imagery"
           },
           "componentName": "IconicStreetSceneContent",
           "isFocus": false,
@@ -150,7 +161,7 @@
           "icon": "projects/folktale-portrayal.png",
           "title": {
             "en": "Folktale Portrayal - Creative Imagery",
-            "fr": "Folktale Portrayal - Creative Imagery"
+            "vi": "Folktale Portrayal - Creative Imagery"
           },
           "componentName": "FolktalePortrayalContent",
           "isFocus": false,
@@ -161,7 +172,7 @@
           "icon": "projects/the-hood.png",
           "title": {
             "en": "Xóm Đạo, District 8 - Visual Identity",
-            "fr": "Xóm Đạo, District 8 - Visual Identity"
+            "vi": "Xóm Đạo, Quận 8 - Visual Identity"
           },
           "componentName": "TheHoodContent",
           "isFocus": false,
@@ -172,7 +183,7 @@
           "icon": "projects/sign-poster.png",
           "title": {
             "en": "Tóc Triều Tiên - Dada Poster",
-            "fr": "Tóc Triều Tiên - Dada Poster"
+            "vi": "Tóc Triều Tiên - Dada Poster"
           },
           "componentName": "SignPosterContent",
           "isFocus": false,

@@ -1,3 +1,28 @@
+<script setup>
+import { computed } from 'vue'
+import { useLocaleStore } from '@/stores/localeStore'
+
+const localeStore = useLocaleStore()
+
+const headline = computed(() => {
+  return localeStore.currentLocale === 'vi'
+    ? 'GỬI TRAO TẾT ẤM, ĐONG ĐẦY YÊU THƯƠNG.'
+    : '“SUM VẦY” IS A TWO-WAY STREET.'
+})
+
+const bodyCopy = computed(() => {
+  return localeStore.currentLocale === 'vi'
+    ? `Kinh Đô từ lâu đã gắn với những khoảnh khắc sum vầy. Nhưng khi mọi người quây quần đón Tết, vẫn có những người chưa thể nghỉ ngơi để đón Tết cùng gia đình. Chúng mình biến lời cảm ơn thành một hành động cụ thể: mang Tết đến với những người vẫn đang ở ngoài kia, và để Kinh Đô trở thành món quà nhỏ gửi lại chút ấm áp cho những người thường dành phần ấm áp của mình cho người khác.`
+    : `Kinh Do has always stood for togetherness. So we asked what togetherness means when some people are still working while everyone else is celebrating. The campaign turns gratitude into action - inviting people to share Tết with the workers who keep the city moving, and letting Kinh Do become the gesture that brings a little warmth back to those who usually give theirs away.`
+})
+
+const buttonText = computed(() => {
+  return localeStore.currentLocale === 'vi'
+    ? 'Xem dự án'
+    : 'View the Project'
+})
+</script>
+
 <template>
   <section class="text-xs md:text-header-window">
 
@@ -9,19 +34,11 @@
     />
 
     <h3 class="mt-5 mb-2 font-bold">
-      “SUM VẦY” IS A TWO-WAY STREET.
+      {{ headline }}
     </h3>
 
     <p class="mb-4">
-      Kinh Do has always stood for togetherness. So we asked what togetherness
-      means when some people are still working while everyone else is celebrating.
-      The campaign turns gratitude into action - inviting people to share Tết with
-      the workers who keep the city moving, and letting Kinh Do become the gesture
-      that brings a little warmth back to those who usually give theirs away.
-    </p>
-
-    <p class="mb-4 font-bold">
-      Gửi trao Tết ấm, đong đầy yêu thương.
+      {{ bodyCopy }}
     </p>
 
     <!-- Su Gia Kinh Do -->
@@ -44,7 +61,7 @@
       target="_blank"
       class="absolute bottom-2 right-1 md:right-6 h-6 text-xxs border border-twilight-blue bg-button-submit rounded-sm leading-loose px-3 hover:shadow-button-submit-hover cursor-pointer active:bg-button-clicked flex items-center justify-center"
     >
-      View the Project
+      {{ buttonText }}
     </a>
 
   </section>

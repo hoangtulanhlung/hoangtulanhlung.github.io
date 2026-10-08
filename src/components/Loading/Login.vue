@@ -22,7 +22,10 @@
 
             <div class="w-full flex justify-end">
               <div class="w-10/12 mr-12">
-                <h2 class="text-white text-lg text-right">
+                <h2
+                  class="text-white text-right"
+                  :class="isVietnamese ? 'vietnamese-login-text text-base' : 'text-lg'"
+                >
                   {{ $t('message.toBegin') }}
                 </h2>
               </div>
@@ -44,7 +47,66 @@
           <div class="app-container">
             <div class="flex justify-between items-center md:gap-8 gap-8">
 
-              <div class="flex text-white md:text-sm text-xs font-bold md:mr-10 md:w-2/6">
+              <!-- Language selector -->
+              <div
+                class="relative inline-block text-left text-white md:text-xl text-sm"
+              >
+                <div
+                  @click="toggleDropdown"
+                  class="flex items-center md:gap-3 gap-2 cursor-pointer"
+                >
+                  <img
+                    :src="flagSrc"
+                    :alt="$t('alt.currLang') + ' ' + localeNames[currentLocale]"
+                    class="md:w-12 w-9"
+                  />
+
+                  <button
+                    class="inline-flex justify-center items-center w-full focus:outline-none font-franklin"
+                  >
+                    {{ localeNames[currentLocale] }}
+
+                    <svg
+                      class="mr-1 md:ml-2 md:h-5 md:w-5 h-3 w-3 ml-px"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div
+                  v-if="dropdownOpen"
+                  class="origin-top-right absolute md:-right-14 -right-9 w-full"
+                >
+                  <div
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="options-menu"
+                  >
+                    <a
+                      v-for="localeOption in filteredLocales"
+                      :key="localeOption"
+                      @click="changeLocale(localeOption)"
+                      class="block md:py-2 py-1.5 md:text-base md:ml-0 ml-0.5 text-xs cursor-pointer"
+                    >
+                      {{ localeNames[localeOption] }}
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Explainer -->
+              <div
+                class="flex text-white md:text-sm text-xs font-bold md:mr-10 md:w-2/6"
+              >
                 <h4>
                   {{ $t('message.explainer') }}
                 </h4>
@@ -59,7 +121,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import LoginForm from '@/components/Loading/LoginForm.vue'
@@ -67,8 +129,57 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
 
 const { locale } = useI18n()
 
-onMounted(() => {
-  locale.value = 'en'
-  localStorage.setItem('currentLocale', 'en')
+const dropdownOpen = ref(false)
+
+const locales = ['en', 'vi']
+
+const localeNames = {
+  en: 'English',
+  vi: 'Tiếng Việt'
+}
+
+const storedLocale = localStorage.getItem('currentLocale')
+
+const currentLocale = ref(
+  storedLocale === 'vi' ? 'vi' : 'en'
+)
+
+locale.value = currentLocale.value
+
+const isVietnamese = computed(() => {
+  return currentLocale.value === 'vi'
+})
+
+watch(currentLocale, (newLocale) => {
+  localStorage.setItem('currentLocale', newLocale)
+  locale.value = newLocale
+})
+
+const flagSrc = computed(() => {
+  if (currentLocale.value === 'vi') {
+    return '/img/icons/langs/flag-vn.png'
+  }
+
+  return '/img/icons/langs/flag-en.webp'
+})
+
+const toggleDropdown = () => {
+  dropdownOpen.value = !dropdownOpen.value
+}
+
+const changeLocale = (newLocale) => {
+  currentLocale.value = newLocale
+  dropdownOpen.value = false
+}
+
+const filteredLocales = computed(() => {
+  return locales.filter((l) => l !== currentLocale.value)
 })
 </script>
+
+<style scoped>
+.vietnamese-login-text {
+  font-family: Tahoma, sans-serif !important;
+  font-weight: 700 !important;
+}
+</style>

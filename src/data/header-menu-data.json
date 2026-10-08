@@ -2,31 +2,31 @@
   "menuHeaderItems": {
     "default": {
       "en": ["File", "Edit", "View", "Tools"],
-      "fr": ["Fichier", "Édition", "Affichage", "Outils"]
+      "vi": ["Tệp", "Chỉnh sửa", "Xem", "Công cụ"]
     },
     "minesweeper": {
       "en": ["Game", "Help"],
-      "fr": ["Jeu", "Aide"]
+      "vi": ["Trò chơi", "Trợ giúp"]
     },
     "notepad": {
       "en": ["File", "Edit", "View", "Help"],
-      "fr": ["Fichier", "Édition", "Affichage", "Aide"]
+      "vi": ["Tệp", "Chỉnh sửa", "Xem", "Trợ giúp"]
     },
     "images": {
       "en": ["File", "Edit", "Favorites", "Tools", "Help"],
-      "fr": ["Fichier", "Édition", "Favoris", "Outils", "Aide"]
+      "vi": ["Tệp", "Chỉnh sửa", "Yêu thích", "Công cụ", "Trợ giúp"]
     },
     "documents": {
       "en": ["File", "Edit", "View", "Favorites", "Tools", "Help"],
-      "fr": ["Fichier", "Édition", "Affichage", "Favoris", "Outils", "Aide"]
+      "vi": ["Tệp", "Chỉnh sửa", "Xem", "Yêu thích", "Công cụ", "Trợ giúp"]
     },
     "contact": {
       "en": ["File", "Edit", "View", "Insert", "Format", "Tools", "Message", "Help"],
-      "fr": ["Fichier", "Édition", "Insértion", "Format", "Outils", "Message", "Aide"]
+      "vi": ["Tệp", "Chỉnh sửa", "Xem", "Chèn", "Định dạng", "Công cụ", "Tin nhắn", "Trợ giúp"]
     },
     "none": {
       "en": [],
-      "fr": []
+      "vi": []
     }
   }
 }

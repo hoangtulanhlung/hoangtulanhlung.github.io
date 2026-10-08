@@ -1,0 +1,172 @@
+{
+  "common": {
+    "name": "Tên",
+    "tiny": "Nhỏ",
+    "errorVideo": "Trình duyệt của bạn không hỗ trợ video.",
+    "context": "Bối cảnh",
+    "objectives": "Mục tiêu",
+    "icon": "Biểu tượng",
+    "back": "Quay lại",
+    "search": "Tìm kiếm",
+    "files": "Tệp",
+    "folder": "Thư mục",
+    "next": "Tiếp theo",
+    "projects": "Dự án",
+    "go": "Đi",
+    "address": "Địa chỉ",
+    "design": "Thiết kế",
+    "tasksDone": "Các công việc đã thực hiện trong dự án",
+    "techInfo": "Thông tin kỹ thuật",
+    "componentsDot": "Thành phần:",
+    "components": "Thành phần",
+    "models": "Mô hình",
+    "model": "Mô hình",
+    "links": "Liên kết",
+    "link": "Liên kết",
+    "hddDots": "HDD:",
+    "disks": "Ổ đĩa",
+    "quantity": "Số lượng",
+    "viewModel": "Xem mô hình",
+    "CDM": "CDM",
+    "PDM": "PDM",
+    "years": "tuổi",
+    "webdev": "Nhà phát triển web",
+    "textDocument": "Tài liệu Văn bản",
+    "list": "Danh sách",
+    "modifications": "Sửa đổi",
+    "loading": "Đang tải...",
+    "language": "Ngôn ngữ",
+    "french": "Tiếng Pháp",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  },
+  "message": {
+    "welcome": "Chào mừng đến với máy tính của tôi.",
+    "toBegin": "Để bắt đầu, hãy bấm vào tên người dùng của tôi.",
+    "explainer": "Sau khi đăng nhập, bạn có thể duyệt các thư mục trên máy tính của tôi. Hãy vào màn hình nền và bấm vào thư mục dự án để xem tất cả dự án của tôi."
+  },
+  "header": {
+    "disconnect": "Đăng xuất",
+    "shutdown": "Tắt máy"
+  },
+  "modale": {
+    "fullscreenTitle": "Chế độ toàn màn hình hiện đã sẵn sàng!",
+    "fullscreenFirstText": "Để có trải nghiệm chân thực hơn,",
+    "fullscreenSecondText": "hãy bấm vào biểu tượng màn hình bên dưới",
+    "control": "Điều khiển"
+  },
+  "buttons": {
+    "start": "start",
+    "send": "Gửi",
+    "downloadCV": "Tải xuống CV",
+    "linkWebSite": "Truy cập trang web",
+    "linkRepository": "Truy cập kho mã"
+  },
+  "windows": {
+    "contact": {
+      "name": "Tên",
+      "description": "Nếu bạn muốn trao đổi về một dự án, hoặc chỉ muốn trò chuyện, hãy để lại lời nhắn và tôi sẽ phản hồi sớm nhất có thể!",
+      "email": "Email",
+      "msgPlaceholder": "Nhập tin nhắn tại đây...",
+      "success": "Đã gửi tin nhắn thành công",
+      "error": {
+        "email": " không phải là địa chỉ email hợp lệ",
+        "empty": "Vui lòng điền đầy đủ các trường trước khi gửi tin nhắn",
+        "unknown": "Không thể gửi tin nhắn. Bạn có thể liên hệ trực tiếp với tôi qua địa chỉ email sau: "
+      },
+      "send": "Gửi",
+      "cut": "Cắt",
+      "copy": "Sao chép",
+      "paste": "Dán",
+      "undo": "Hoàn tác",
+      "check": "Kiểm tra",
+      "spelling": "Chính tả",
+      "attach": "Đính kèm",
+      "priority": "Ưu tiên",
+      "sign": "Ký",
+      "to": "Đến:",
+      "from": "Từ:",
+      "subject": "Chủ đề:"
+    },
+    "cv": {
+      "altPicture": "ảnh giới thiệu CV",
+      "education": "Học vấn",
+      "proExperience": "Kinh nghiệm làm việc"
+    },
+    "music": {
+      "title": "Tiêu đề",
+      "album": "Album",
+      "addedThe": "Ngày thêm",
+      "duration": "Thời lượng",
+      "link": "Liên kết",
+      "artist": "Nghệ sĩ",
+      "description": "Một playlist được tạo riêng cho cái portfolio này, gồm những bài hát tui iu.",
+      "visitOnSpotify": "Nghe trên Spotify",
+      "accessFirstSentence": "Để sử dụng tính năng này,",
+      "accessSecondSentence": "bạn cần kết nối với Spotify",
+      "connectToSpotify": "Kết nối với Spotify",
+      "spotifyDisclaimer": "Danh sách phát này và cách sử dụng được thực hiện bằng Spotify API",
+      "albumCover": "Bìa album"
+    },
+    "pictures": {
+      "previous": "Ảnh trước",
+      "next": "Ảnh tiếp theo",
+      "rotateLeft": "Xoay trái",
+      "rotateRight": "Xoay phải"
+    },
+    "documents": {
+      "about": {
+        "title": "Giới thiệu",
+        "contextFirstParagraph": "Dự án này ra đời từ mong muốn tạo một portfolio vừa vui vừa khác biệt.",
+        "contextSecondParagraph": "Ý tưởng là tái hiện giao diện máy tính Windows XP, để khách truy cập có thể duyệt các thư mục và tệp trong phiên làm việc của tôi.",
+        "contextThirdParagraph": "Tôi muốn trình bày các dự án theo một góc nhìn khác, nơi người xem có thể tự do khám phá. Không chỉ là một tấm danh thiếp trên web, mà là một trải nghiệm tương tác.",
+        "contextFourthParagraph": "Dự án được thiết kế để gần với giao diện Windows XP thật nhất có thể, với màn hình nền, thư mục và tệp.",
+        "contextFifthParagraph": "Windows XP là hệ điều hành đầu tiên tôi từng sử dụng, nên thiết kế của nó mang lại cho tôi rất nhiều hoài niệm. Tôi muốn dành portfolio này như một lời tri ân.",
+        "contextSixthParagraph": "Dự án được xây dựng bằng Vue.js, Vuex, Vue Router và SCSS. Tôi mất khoảng một năm để hoàn thiện, làm từng giai đoạn.",
+        "contextSeventhParagraph": "Dự án này được làm bằng rất nhiều tâm huyết và kiên nhẫn. Hy vọng bạn sẽ thích khám phá chiếc máy tính của tôi!",
+        "secondTitle": "Cảm ơn",
+        "helpFirst": "Dự án được thực hiện với sự hỗ trợ của Dockurr Windows XP, giúp tôi chạy môi trường Windows XP trên máy tính một cách dễ dàng.",
+        "helpSecond": "Spotify API giúp tôi lấy thông tin danh sách phát, hiển thị trên trang web và thêm trình phát tích hợp.",
+        "helpThird": "Ở phía máy chủ, tôi dùng Node.js để biên dịch trang web và quản lý biểu mẫu liên hệ.",
+        "helpFourth": "Internet Archive giúp tôi tìm lại các hình ảnh Windows XP để tích hợp vào dự án. Xin cảm ơn họ.",
+        "helpFifth": "Con mèo của tôi có hỗ trợ một phần bằng cách đi ngang bàn phím, nhưng chủ yếu là hỗ trợ tinh thần."
+      },
+      "legal": {
+        "title": "Thông báo pháp lý",
+        "firstParagraph": "Theo quy định pháp luật hiện hành, người dùng của website Portfolio - Nguyen Trong Khoi được thông báo về danh tính của các bên tham gia vào việc tạo lập và quản lý website.",
+        "edit": "Biên tập trang web",
+        "secondParagraph": "Trang web này, có thể truy cập tại https://hoangtulanhlung.com, được biên tập bởi:",
+        "thirdParagraph": "Nguyen Trong Khoi, cư trú tại Thành phố Hồ Chí Minh, quốc tịch Việt Nam, sinh ngày 08/06/2004.",
+        "hosting": "Lưu trữ",
+        "fourthParagraph": "Trang web được lưu trữ bởi Infomaniak Network SA. Có thể liên hệ tại: https://www.infomaniak.com/en/help",
+        "dirPublication": "Người phụ trách xuất bản",
+        "fifthParagraph": "Người phụ trách xuất bản là: Nguyen Trong Khoi.",
+        "contact": "Liên hệ",
+        "sixthParagraph": "Nếu có bất kỳ câu hỏi nào về nội dung hoặc website, bạn có thể để lại lời nhắn qua địa chỉ email sau:"
+      }
+    },
+    "services": {
+      "price": "Giá",
+      "duration": "Thời lượng",
+      "features": "Tính năng",
+      "interested": "Bạn quan tâm đến dịch vụ này?",
+      "contactMessage": "Hãy liên hệ với tôi để trao đổi về dự án và nhận báo giá phù hợp.",
+      "contactForm": "Biểu mẫu liên hệ"
+    }
+  },
+  "alt": {
+    "logoStart": "Logo portfolio XP màu đen lúc khởi động",
+    "logoLoading": "Logo portfolio XP màu đen lúc tải",
+    "logoLogin": "Logo portfolio XP màu trắng lúc đăng nhập",
+    "currLang": "Ngôn ngữ hiện tại"
+  },
+  "clippy": {
+    "greeting": "Xin chào! 👋",
+    "message": "Có vẻ như bạn đang thích portfolio này! Bạn có muốn ủng hộ dự án không?",
+    "starRepo": "Gắn sao trên GitHub",
+    "buyMeCoffee": "Mời tôi một ly cà phê",
+    "dontShowAgain": "Không hiển thị lại",
+    "close": "Đóng",
+    "clippyAlt": "Trợ lý Clippy"
+  }
+}
