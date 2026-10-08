@@ -1,8 +1,10 @@
 <script setup>
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useLocaleStore } from '@/stores/localeStore'
 
 const { locale } = useI18n()
+const localeStore = useLocaleStore()
 
 const localeNames = {
   en: 'English',
@@ -31,10 +33,14 @@ const oppositeLocale = computed(() => {
 const handleLanguageSwitch = () => {
   const newLocale = props.currentLocale === 'en' ? 'vi' : 'en'
 
+  // Save locale
   localStorage.setItem('currentLocale', newLocale)
+
+  // Update vue-i18n
   locale.value = newLocale
 
-  location.reload()
+  // Update Pinia store so the rest of the UI reacts immediately
+  localeStore.currentLocale = newLocale
 }
 </script>
 
