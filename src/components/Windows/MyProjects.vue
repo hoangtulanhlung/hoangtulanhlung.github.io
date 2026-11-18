@@ -17,6 +17,7 @@ import VYL2026Content from './MyProjects/VYL2026Content.vue'
 import CMO2025Content from './MyProjects/CMO2025Content.vue'
 import KinderBuenoContent from './MyProjects/KinderBuenoContent.vue'
 import GoveeContent from './MyProjects/GoveeContent.vue'
+import DuolingoMixueContent from './MyProjects/DuolingoMixueContent.vue'
 import LogitechContent from './MyProjects/LogitechContent.vue'
 import DurexContent from './MyProjects/DurexContent.vue'
 import VinamilkContent from './MyProjects/VinamilkContent.vue'
@@ -93,6 +94,7 @@ const componentMap = {
   CMO2025Content,
   KinderBuenoContent,
   GoveeContent,
+  DuolingoMixueContent,
   LogitechContent,
   DurexContent,
   VinamilkContent,

@@ -108,6 +108,21 @@
       },
       "projects": [
         {
+          "name": "Duolingo × Mixue",
+          "icon": "projects/duolingo-mixue.png",
+          "title": {
+            "en": "Duolingo × Mixue - Campaign Production",
+            "vi": "Duolingo × Mixue - Sản xuất chiến dịch"
+          },
+          "date": {
+            "en": "2026",
+            "vi": "2026"
+          },
+          "componentName": "DuolingoMixueContent",
+          "isFocus": false,
+          "isActive": false
+        },
+        {
           "name": "Kinder Bueno",
           "icon": "projects/kinder-bueno.png",
           "title": {
