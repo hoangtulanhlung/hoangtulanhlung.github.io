@@ -1,5 +1,5 @@
 <template>
-  <div class="relative right-0 h-content-window flex overflow-y-auto bg-white pb-14">
+  <div class="relative right-0 h-content-window flex overflow-y-auto bg-white pb-20">
     <div v-if="loading" class="w-full h-full flex items-center text-center justify-center text-sm">{{ $t('common.loading') }}</div>
     <div v-else class="w-full font-trebuchet-pixel">
       <div class="w-full h-full overflow-x-hidden">

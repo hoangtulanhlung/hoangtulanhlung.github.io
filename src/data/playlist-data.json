@@ -11,6 +11,50 @@
   "tracks": {
     "items": [
       {
+        "id": "khoi-track-24",
+        "name": "ACCELERANDO",
+        "album": {
+          "name": "ACCELERANDO",
+          "images": [
+            {
+              "url": "/img/album-covers/khoi/24.png"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/intl-vi/track/3Vv6jWPmzKXlaoKsVwNM0O?si=4e7fdb7e063c4f81"
+          }
+        },
+        "artists": [
+          {
+            "name": "Grimes & VADAKIN"
+          }
+        ],
+        "added_at": "2026-11-18T00:00:00Z",
+        "duration_ms": 242246
+      },
+      {
+        "id": "khoi-track-25",
+        "name": "Ah-Choo",
+        "album": {
+          "name": "Lovelyz8",
+          "images": [
+            {
+              "url": "/img/album-covers/khoi/25.png"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/intl-vi/track/4Kl017IgdJxdlvgnvrpYlE?si=939ba5048690435c"
+          }
+        },
+        "artists": [
+          {
+            "name": "Lovelyz"
+          }
+        ],
+        "added_at": "2026-11-18T00:00:00Z",
+        "duration_ms": 218616
+      },
+      {
         "id": "khoi-track-01",
         "name": "炉心融解",
         "album": {
@@ -517,6 +561,6 @@
         "duration_ms": 144000
       }
     ],
-    "length": 23
+    "length": 25
   }
 }
