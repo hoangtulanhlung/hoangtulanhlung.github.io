@@ -33,6 +33,28 @@
         "duration_ms": 242246
       },
       {
+        "id": "khoi-track-26",
+        "name": "Shapeshifter",
+        "album": {
+          "name": "Virgin",
+          "images": [
+            {
+              "url": "/img/album-covers/khoi/26.png"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/intl-vi/track/0vtgMfyOVM2Y97DcVVJw3m?si=20b844bb47144ccc"
+          }
+        },
+        "artists": [
+          {
+            "name": "Lorde"
+          }
+        ],
+        "added_at": "2026-11-18T00:00:00Z",
+        "duration_ms": 257000
+      },
+      {
         "id": "khoi-track-25",
         "name": "Ah-Choo",
         "album": {
@@ -561,6 +583,6 @@
         "duration_ms": 144000
       }
     ],
-    "length": 25
+    "length": 26
   }
 }
